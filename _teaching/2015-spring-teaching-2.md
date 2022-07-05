@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate"
 permalink: /teaching/2016-17-cfis
 venue: "BarcelonaTech"
-date: 2016-17
+date: 2016-09-09
 location: "Barcelona"
 ---
 

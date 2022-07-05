@@ -3,7 +3,7 @@ title: "Search-Based Testing of Reinforcement Learning"
 collection: publications
 permalink: /publication/testingRL
 excerpt: "Search-Based Testing of Reinforcement Learning (IJCAI '22)."
-date: 07-2022
+date: 2022-07-25
 venue: 'International Joint Conference on Artificial Intelligence'
 paperurl: 'https://arxiv.org/abs/2205.04887'
 citation: 'Cite me'

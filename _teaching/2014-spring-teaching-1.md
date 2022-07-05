@@ -4,7 +4,7 @@ collection: teaching
 type: "Master course"
 permalink: /teaching/2021-22-MC
 venue: "TU Graz"
-date: 2021-22
+date: 2021-03-03
 location: "Graz, Austria"
 ---
 
