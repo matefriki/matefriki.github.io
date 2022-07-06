@@ -42,6 +42,7 @@ Publications
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
    -->
+
 Teaching
 ======
   <ul>{% for post in site.teaching %}
@@ -50,4 +51,4 @@ Teaching
 
 Service and leadership
 ======
-* Subreviewer for RV'21-22, FMCAD'21-22, CAV'22, CAV-AE'21-22 
+* Subreviewer for RV'22, CAV-AE'22
