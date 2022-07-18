@@ -96,3 +96,67 @@ $(document).ready(function(){
   });
 
 });
+
+ready(event => {
+  setTheme();
+  var container = document.getElementById('container');
+  var footer = document.getElementById('footer');
+  var modal = document.getElementById('menuModal');
+  addMenuModalListener();
+  addThemeButtonListener();
+});
+
+function setTheme() {
+  if(sessionStorage.getItem('theme') === 'dark') {
+    bodyClassList = document.body.classList;
+    bodyClassList.remove('light');
+    bodyClassList.add('dark');
+  }
+}
+
+
+function addMenuModalListener() {
+  menuButton = document.querySelectorAll("a#showMenu");
+  menuButton.forEach(function(button) {
+    button.onclick = function(ev) {
+      var modal = document.getElementById('menuModal');
+      container.classList.add('modalBlur');
+      footer.classList.add('modalBlur');
+      modal.classList.remove('closed');
+      button.classList.add('hidden');
+    }
+  });
+  document.getElementById('closeMenu').onclick = function() {
+    var modal = document.getElementById('menuModal');
+    var menuButton = document.getElementById('showMenu');
+    modal.classList.add('closed');
+    container.classList.remove('modalBlur');
+    footer.classList.remove('modalBlur');
+    menuButton.classList.remove('hidden');
+  }
+};
+
+
+function addThemeButtonListener() {
+  var themeButton = document.getElementById('themeButton');
+  bodyClassList = document.body.classList;
+  themeButton.onclick = function() {
+    if(bodyClassList.contains('dark')) {
+      bodyClassList.remove('dark')
+      bodyClassList.add('light')
+      sessionStorage.setItem('theme', 'light')
+      themeButton.innerHTML = "Dark Theme"
+      themeButton.classList.add('button--darkGrey')
+      themeButton.classList.remove('button--ruedaGrey')
+      themeButton.classList.remove('button--dark-font')
+    } else {
+      bodyClassList.remove('light')
+      bodyClassList.add('dark')
+      sessionStorage.setItem('theme', 'dark')
+      themeButton.innerHTML = "Light Theme"
+      themeButton.classList.add('button--ruedaGrey')
+      themeButton.classList.remove('button--darkGrey')
+      themeButton.classList.add('button--dark-font')
+    }
+  }
+};

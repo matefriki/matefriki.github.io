@@ -96,6 +96,18 @@ $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
+// DarkTheme
+@mixin darkTheme {
+   background: $dark-gray;
+   color: $light-gray;
+ }
+ 
+ // LgithTheme
+ @mixin lightTheme {
+   background: $light-gray;
+   color: $dark-gray;
+ }
+
 
 /*
    Breakpoints
