@@ -11,14 +11,14 @@ redirect_from:
 
 Education
 ======
-* B.S. Mathematics, BarcelonaTech, 2018
-* B.S. Physics Engineering, BarcelonaTech, 2018
-* M.S. in Advanced Mathematics and Mathematical Engineering, BarcelonaTech, 2019
-* Ph.D in Computer Science, Graz University of Technology, 2021 - current
+* B.S. Mathematics, BarcelonaTech, 2013 - 2018
+* B.S. Physics Engineering, BarcelonaTech, 2013 - 2018
+* M.S. in Advanced Mathematics and Mathematical Engineering, BarcelonaTech, 2018 - 2019
+* Ph.D. in Computer Science, Graz University of Technology, 2021 - current
 
 Work experience
 ======
-* 2020-21: AI Developer
+* 2020-21: Data Scientist (AI Team)
   * [Basetis](basetis.com)
 
 <!-- Skills
@@ -43,12 +43,13 @@ Work experience
   {% endfor %}</ul>
    -->
 
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
 
 Service and leadership
 ======
-* Subreviewer for RV'22, CAV-AE'22
+* PC Member: CAV-AE'23
+* Subreviewer for RV'22, CAV-AE'22, TACAS'22

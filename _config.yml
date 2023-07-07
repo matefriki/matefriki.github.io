@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Filip Cano Córdoba"
   avatar           : "filip_400x400.png"
-  bio              : "PhD Student at TU Graz"
+  bio              : "Computer Science PhD Student at TU Graz"
   location         : "Graz, Austria"
   employer         :
   pubmed           :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "@filipcano95"
   vine             :
   weibo            :
   xing             :
