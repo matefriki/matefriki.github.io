@@ -20,6 +20,9 @@ Safety Shielding under Delayed Observation
 </strong>
 in the International Conference of Automated Planning and Scheduling (ICAPS)
 
+<iframe src="https://tugraziaik-my.sharepoint.com/personal/filip_cano_iaik_tugraz_at/_layouts/15/Doc.aspx?sourcedoc={f8ea531c-1cc4-47cb-993b-d415c917ac58}&amp;action=embedview&amp;wdAr=1.77734375" width="600px" height="363px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+
+
 <img src="./../files/ICAPS2023_Poster_small.png" width="700px" title="poster"/>
 
 <!-- <object data="./../files/ICAPS2023_Poster.pdf" type="application/pdf" width="700px" height="700px">
