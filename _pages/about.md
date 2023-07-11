@@ -16,7 +16,7 @@ redirect_from:
 
 I'm in Prague to present our paper 
 <strong>
-Safety Shielding under Delayed Observation
+[Safety Shielding under Delayed Observation](https://github.com/filipcano/safety-shields-delayed)
 </strong>
 in the International Conference of Automated Planning and Scheduling (ICAPS)
 
