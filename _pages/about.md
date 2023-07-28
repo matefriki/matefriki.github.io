@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
----
+<!-- --- -->
 
-# \*\*  NEW  \*\*
+<!-- # \*\*  NEW  \*\*
 
 ---
 
@@ -20,7 +20,7 @@ I was recently in Prague to present our paper
 </strong>
 in the International Conference of Automated Planning and Scheduling (ICAPS),
 
-<img src="./../files/ICAPS2023_Poster_small.png" width="700px" title="poster"/>
+<img src="./../files/ICAPS2023_Poster_small.png" width="700px" title="poster"/> -->
 
 <!-- <object data="./../files/ICAPS2023_Poster.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="./../files/ICAPS2023_Poster.pdf">
