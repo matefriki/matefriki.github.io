@@ -101,7 +101,7 @@ International Joint Conference of Artificial Intelligence (<strong>IJCAI</strong
 <a href="https://www.ijcai.org/proceedings/2022/0072.pdf" style="text-decoration: none;">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
 </a>
-<a href="https://www.ijcai.org/proceedings/2022/video/0072" style="text-decoration: none;">
+<a href="https://slideslive.com/38985048/searchbased-testing-of-reinforcement-learning" style="text-decoration: none;">
 <img src="./../images/video-icon.svg" width=16em title="Talk recording"/>
 </a>
 </summary>
