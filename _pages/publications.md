@@ -18,8 +18,15 @@ Years: [2023](#2023)・[2022](#2022)・[2019](#2019)・[2018](#2018)・[2017](#2
 <strong>Cano Córdoba, F.</strong>, Judson, S., Antonopoulos, T., Bjorner, K., Shoemaker, N., Shapiro, S. J., Piscak, R. & Könighofer, B.
 <br>
 International Joint Conference of Artificial Intelligence (<strong>IJCAI</strong>) 2023.
-<a href="https://arxiv.org/pdf/2307.01532">
+<a href="https://www.ijcai.org/proceedings/2023/0042.pdf"
+style="text-decoration: none;">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+<a href="https://github.com/filipcano/intentional-autonomous-agents" style="text-decoration: none;">
+<img src="./../images/github-icon.svg" width=16em title="Repository"/>
+</a>
+<a href="./../files/ijcai23-poster.pdf" style="text-decoration: none;">
+<img src="./../images/poster-icon.svg" width=16em title="Poster"/>
 </a>
 </summary>
 <br>

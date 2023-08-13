@@ -8,25 +8,25 @@ redirect_from:
   - /about.html
 ---
 
-<!-- --- -->
-
-<!-- # \*\*  NEW  \*\*
-
 ---
 
-I was recently in Prague to present our paper 
-<strong>
-[Safety Shielding under Delayed Observation](https://github.com/filipcano/safety-shields-delayed)
-</strong>
-in the International Conference of Automated Planning and Scheduling (ICAPS),
+# \*\*  NEW  \*\*
 
-<img src="./../files/ICAPS2023_Poster_small.png" width="700px" title="poster"/> -->
+---
+I will be soon in Macao to present our paper
+<strong>
+[Analyzing Intentional Behavior in Autonomous Agents under Uncertainty](https://doi.org/10.24963/ijcai.2023/42)
+</strong>
+in the International Joint Conference of Artificial Intelligence (IJCAI),
+
+<img src="./../files/ijcai23-poster-small.png" width="700px" title="poster"/>
 
 <!-- <object data="./../files/ICAPS2023_Poster.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="./../files/ICAPS2023_Poster.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="./../files/ICAPS2023_Poster.pdf">Download PDF</a>.</p>
     </embed>
-</object> -->
+</object>
+-->
 
 ---
 
