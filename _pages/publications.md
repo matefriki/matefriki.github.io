@@ -14,8 +14,37 @@ Years: [2023](#2023)・[2022](#2022)・[2019](#2019)・[2018](#2018)・[2017](#2
 
 <details>
 <summary> 
+<strong style="color:#52adc8">Formal XAI via Syntax-Guided Synthesis</strong> <br>
+Bjørner, K., Judson, S., <strong>Cano, F.</strong>, Goldman, D. , Shoemaker, N., Piscak, R. & Könighofer, B.
+<br>
+International Symposium On Leveraging Applications of Formal Methods (<strong>ISoLA</strong>) 2023.
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+In this paper, we propose a novel application of syntax-guided synthesis to find symbolic representations of a model’s decision-making process, designed for easy comprehension and validation by humans. Our approach takes input-output samples from complex machine learning models, such as deep neural networks, and automatically derives interpretable mimic programs. A mimic program precisely imitates the behavior of an opaque model over the provided data. We discuss various types of grammars that are well-suited for computing mimic programs for tabular and image input data. Our experiments demonstrate the potential of the proposed method: wesuccessfully synthesized mimic programs for neural networks trained on the MNIST and the Pima Indians diabetes data sets. All experiments were performed using the SMT-based cvc5 synthesis tool.
+<br>
+<br>
+<details><summary>BibTex:</summary>
+<pre>
+@inproceedings{bjorner2023formal,
+  title={Formal XAI via Syntax-Guided Synthesis},
+  author={Bj{\o}rner, Katrine and Judson, Samuel and Cano, Filip and Goldman, Drew and Shoemaker, Nick and Piskac, Ruzica and K{\"o}nighofer, Bettina},
+  booktitle = {Proceedings of the International Symposium On Leveraging Applications of Formal Methods, {ISoLA} 2023},
+  year={2023}
+}
+
+</pre>
+</details>
+</div>
+</details>
+
+---
+
+<details>
+<summary> 
 <strong style="color:#52adc8">Analyzing Intentional Behavior in Autonomous Agents under Uncertainty</strong> <br>
-<strong>Cano Córdoba, F.</strong>, Judson, S., Antonopoulos, T., Bjorner, K., Shoemaker, N., Shapiro, S. J., Piscak, R. & Könighofer, B.
+<strong>Cano Córdoba, F.</strong>, Judson, S., Antonopoulos, T., Bjørner, K., Shoemaker, N., Shapiro, S. J., Piscak, R. & Könighofer, B.
 <br>
 International Joint Conference of Artificial Intelligence (<strong>IJCAI</strong>) 2023.
 <a href="https://www.ijcai.org/proceedings/2023/0042.pdf"

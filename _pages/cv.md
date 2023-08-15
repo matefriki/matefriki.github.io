@@ -51,5 +51,5 @@ Work experience
 
 Service and leadership
 ======
-* PC Member: CAV-AE'23
-* Subreviewer for RV'22, CAV-AE'22, TACAS'22
+* PC Member: CAV-AE'23, VMCAI-AE'24
+* Subreviewer for RV'22, CAV-AE'22, TACAS'23, ISoLA'23
