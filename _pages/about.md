@@ -10,14 +10,31 @@ redirect_from:
 
 ---
 
-# \*\*  NEW  \*\*
+
+# \*\*  NOW  \*\*
 
 ---
-I will be soon in Macao to present our paper
+
+[Link](https://arxiv.org/abs/2205.04887) to the paper and slides that for my presentation happening now.
+<a href="./../files/safeRL-slides.pptx" style="text-decoration: none;">
+<img src="./../images/slides-icon.svg" width=16em title="Slides"/>
+</a>
+
+---
+# \*\*  NEW  \*\*
+---
+I am in Macao to present our paper
 <strong>
 [Analyzing Intentional Behavior in Autonomous Agents under Uncertainty](https://doi.org/10.24963/ijcai.2023/42)
 </strong>
-in the International Joint Conference of Artificial Intelligence (IJCAI),
+in the International Joint Conference of Artificial Intelligence (IJCAI). 
+I am also presenting an extended version of our paper 
+<strong>
+[Search-Based Testing of Reinforcement Learning](https://arxiv.org/abs/2205.04887)
+</strong>
+at the Joint AI Safety - Safe RL Workshop @ IJCAI'23.
+
+---
 
 <img src="./../files/ijcai23-poster-small.png" width="700px" title="poster"/>
 
