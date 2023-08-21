@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
----
+<!-- ---
 
 
 # \*\*  NOW  \*\*
@@ -18,7 +18,7 @@ redirect_from:
 [Link](https://arxiv.org/abs/2205.04887) to the paper and slides that for my presentation happening now.
 <a href="./../files/safeRL-slides.pptx" style="text-decoration: none;">
 <img src="./../images/slides-icon.svg" width=16em title="Slides"/>
-</a>
+</a> -->
 
 ---
 # \*\*  NEW  \*\*
