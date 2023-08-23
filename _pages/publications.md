@@ -17,7 +17,7 @@ Years: [2023](#2023)・[2022](#2022)・[2019](#2019)・[2018](#2018)・[2017](#2
 <strong style="color:#52adc8">Formal XAI via Syntax-Guided Synthesis</strong> <br>
 Bjørner, K., Judson, S., <strong>Cano, F.</strong>, Goldman, D. , Shoemaker, N., Piscak, R. & Könighofer, B.
 <br>
-International Symposium On Leveraging Applications of Formal Methods (<strong>ISoLA</strong>) 2023.
+International Symposium On Leveraging Applications of Formal Methods (<strong>AISoLA</strong>) 2023.
 </summary>
 <br>
 <div style="margin-left: 2em">
@@ -56,6 +56,9 @@ style="text-decoration: none;">
 </a>
 <a href="./../files/ijcai23-poster.pdf" style="text-decoration: none;">
 <img src="./../images/poster-icon.svg" width=16em title="Poster"/>
+</a>
+<a href="./../files/ijcai23-slides.pptx" style="text-decoration: none;">
+<img src="./../images/slides-icon.svg" width=16em title="Slides"/>
 </a>
 </summary>
 <br>

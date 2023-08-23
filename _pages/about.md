@@ -8,17 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-<!-- ---
+---
 
 
 # \*\*  NOW  \*\*
 
 ---
 
-[Link](https://arxiv.org/abs/2205.04887) to the paper and slides that for my presentation happening now.
-<a href="./../files/safeRL-slides.pptx" style="text-decoration: none;">
+[Link](https://doi.org/10.24963/ijcai.2023/42) to the paper and slides that for my presentation happening now.
+<a href="./../files/ijcai23-slides.pptx" style="text-decoration: none;">
 <img src="./../images/slides-icon.svg" width=16em title="Slides"/>
-</a> -->
+</a>
 
 ---
 # \*\*  NEW  \*\*
@@ -28,7 +28,8 @@ I am in Macao to present our paper
 [Analyzing Intentional Behavior in Autonomous Agents under Uncertainty](https://doi.org/10.24963/ijcai.2023/42)
 </strong>
 in the International Joint Conference of Artificial Intelligence (IJCAI). 
-I am also presenting an extended version of our paper 
+
+I am also presenting an extended abstract version of our paper 
 <strong>
 [Search-Based Testing of Reinforcement Learning](https://arxiv.org/abs/2205.04887)
 </strong>
