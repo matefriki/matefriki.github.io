@@ -60,6 +60,9 @@ style="text-decoration: none;">
 <a href="./../files/ijcai23-slides.pptx" style="text-decoration: none;">
 <img src="./../images/slides-icon.svg" width=16em title="Slides"/>
 </a>
+<a href="https://recorder-v3.slideslive.com/?share=84865&s=0c054fdc-adfd-4ef6-8302-5a3f3710089b" style="text-decoration: none;">
+<img src="./../images/video-icon.svg" width=16em title="Talk recording"/>
+</a>
 </summary>
 <br>
 <div style="margin-left: 2em">
