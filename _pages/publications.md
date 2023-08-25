@@ -18,6 +18,10 @@ Years: [2023](#2023)・[2022](#2022)・[2019](#2019)・[2018](#2018)・[2017](#2
 Bjørner, K., Judson, S., <strong>Cano, F.</strong>, Goldman, D. , Shoemaker, N., Piscak, R. & Könighofer, B.
 <br>
 International Symposium On Leveraging Applications of Formal Methods (<strong>AISoLA</strong>) 2023.
+<a href="../files/isola23-paper.pdf"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
 </summary>
 <br>
 <div style="margin-left: 2em">
@@ -30,7 +34,7 @@ In this paper, we propose a novel application of syntax-guided synthesis to find
 @inproceedings{bjorner2023formal,
   title={Formal XAI via Syntax-Guided Synthesis},
   author={Bj{\o}rner, Katrine and Judson, Samuel and Cano, Filip and Goldman, Drew and Shoemaker, Nick and Piskac, Ruzica and K{\"o}nighofer, Bettina},
-  booktitle = {Proceedings of the International Symposium On Leveraging Applications of Formal Methods, {ISoLA} 2023},
+  booktitle = {Proceedings of the International Symposium On Leveraging Applications of Formal Methods, {AISoLA} 2023},
   year={2023}
 }
 

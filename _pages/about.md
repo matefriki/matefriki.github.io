@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ---
-
+<!-- 
 
 # \*\*  NOW  \*\*
 
@@ -20,16 +20,16 @@ redirect_from:
 <img src="./../images/slides-icon.svg" width=16em title="Slides"/>
 </a>
 
----
+--- -->
 # \*\*  NEW  \*\*
 ---
-I am in Macao to present our paper
+I was recently in Macao to present our paper
 <strong>
 [Analyzing Intentional Behavior in Autonomous Agents under Uncertainty](https://doi.org/10.24963/ijcai.2023/42)
 </strong>
 in the International Joint Conference of Artificial Intelligence (IJCAI). 
 
-I am also presenting an extended abstract version of our paper 
+I also presented an extended abstract version of our paper 
 <strong>
 [Search-Based Testing of Reinforcement Learning](https://arxiv.org/abs/2205.04887)
 </strong>
