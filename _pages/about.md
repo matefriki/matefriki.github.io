@@ -9,18 +9,18 @@ redirect_from:
 ---
 
 ---
-<!-- 
+
 
 # \*\*  NOW  \*\*
 
 ---
 
-[Link](https://doi.org/10.24963/ijcai.2023/42) to the paper and slides that for my presentation happening now.
-<a href="./../files/ijcai23-slides.pptx" style="text-decoration: none;">
+[Link](https://doi.org/10.1609/icaps.v33i1.27181) to the paper and slides that for my presentation happening now.
+<a href="./../files/DelayedShields_IDMLabSeminar.pptx" style="text-decoration: none;">
 <img src="./../images/slides-icon.svg" width=16em title="Slides"/>
 </a>
 
---- -->
+---
 <!-- # \*\*  NEW  \*\*
 ---
 I was recently in Macao to present our paper
