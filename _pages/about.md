@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ---
-<!-- 
+
 
 # \*\*  NOW  \*\*
 
@@ -20,7 +20,7 @@ redirect_from:
 <img src="./../images/slides-icon.svg" width=16em title="Slides"/>
 </a>
 
---- -->
+---
 <!-- # \*\*  NEW  \*\*
 ---
 I was recently in Macao to present our paper
