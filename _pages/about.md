@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ---
-
+<!-- 
 
 # \*\*  NOW  \*\*
 
@@ -20,7 +20,21 @@ redirect_from:
 <img src="./../images/slides-icon.svg" width=16em title="Slides"/>
 </a>
 
+--- -->
+
+
+# \*\*  NOW  \*\*
+
 ---
+
+I am currently in Krete, Greece, to present our paper
+<strong>
+[Formal XAI via Syntax-Guided Synthesis](https://filipcano.org/files/isola23-paper.pdf)
+</strong>
+in the conference AISoLA 2023.
+
+---
+
 <!-- # \*\*  NEW  \*\*
 ---
 I was recently in Macao to present our paper
