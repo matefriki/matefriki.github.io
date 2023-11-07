@@ -23,7 +23,7 @@ redirect_from:
 --- -->
 
 
-# \*\*  NOW  \*\*
+<!-- # \*\*  NOW  \*\*
 
 ---
 
@@ -33,7 +33,7 @@ I am currently in Krete, Greece, to present our paper
 </strong>
 in the conference AISoLA 2023.
 
----
+--- -->
 
 <!-- # \*\*  NEW  \*\*
 ---
