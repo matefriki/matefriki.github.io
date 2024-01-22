@@ -51,5 +51,5 @@ Work experience
 
 Service and leadership
 ======
-* PC Member: CAV-AE'23, VMCAI-AE'24
-* Subreviewer for RV'22, CAV-AE'22, TACAS'23, ISoLA'23
+* PC Member: IJCAI (2024), CAV-AE (2023, 2024), VMCAI-AE (2024), 
+* Subreviewer for TACAS (2023), CAV-AE (2022), RV (2022), VMCAI (2024), AISoLA (2023)

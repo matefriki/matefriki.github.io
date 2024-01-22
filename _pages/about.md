@@ -77,46 +77,6 @@ I received my MSc degree in Advanced Mathematics and Mathematical Engineering fr
 
 ## Selected publications
 
----
-
-
-<details>
-<summary> 
-<strong style="color:#52adc8">Formal XAI via Syntax-Guided Synthesis</strong> <br>
-Bjørner, K., Judson, S., <strong>Cano, F.</strong>, Goldman, D. , Shoemaker, N., Piscak, R. & Könighofer, B.
-<br>
-Bridging the Gap Between AI and Reality (<strong>AISoLA</strong>) 2023.
-<a href="../files/isola23-paper.pdf"
-style="text-decoration: none;">
-<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
-</a>
-<a href="https://github.com/kbjorner/synthesis" style="text-decoration: none;">
-<img src="./../images/github-icon.svg" width=16em title="Repository"/>
-</a>
-<a href="./../files/aisola2023-slides.pptx" style="text-decoration: none;">
-<img src="./../images/slides-icon.svg" width=16em title="Slides"/>
-</a>
-</summary>
-<br>
-<div style="margin-left: 2em">
-<strong> Abstract: </strong>
-In this paper, we propose a novel application of syntax-guided synthesis to find symbolic representations of a model’s decision-making process, designed for easy comprehension and validation by humans. Our approach takes input-output samples from complex machine learning models, such as deep neural networks, and automatically derives interpretable mimic programs. A mimic program precisely imitates the behavior of an opaque model over the provided data. We discuss various types of grammars that are well-suited for computing mimic programs for tabular and image input data. Our experiments demonstrate the potential of the proposed method: wesuccessfully synthesized mimic programs for neural networks trained on the MNIST and the Pima Indians diabetes data sets. All experiments were performed using the SMT-based cvc5 synthesis tool.
-<br>
-<br>
-<details><summary>BibTex:</summary>
-<pre>
-@inproceedings{bjorner2023formal,
-  title={Formal XAI via Syntax-Guided Synthesis},
-  author={Bj{\o}rner, Katrine and Judson, Samuel and Cano, Filip and Goldman, Drew and Shoemaker, Nick and Piskac, Ruzica and K{\"o}nighofer, Bettina},
-  booktitle = {Proceedings of {AISoLA} 2023},
-  year={2023}
-}
-
-</pre>
-</details>
-</div>
-</details>
-
 
 ---
 
@@ -208,3 +168,41 @@ Agents operating in physical environments need to be able to handle delays in th
 </details>
 
 ---
+
+
+<details>
+<summary> 
+<strong style="color:#52adc8">Formal XAI via Syntax-Guided Synthesis</strong> <br>
+Bjørner, K., Judson, S., <strong>Cano, F.</strong>, Goldman, D. , Shoemaker, N., Piscak, R. & Könighofer, B.
+<br>
+Bridging the Gap Between AI and Reality (<strong>AISoLA</strong>) 2023.
+<a href="../files/isola23-paper.pdf"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+<a href="https://github.com/kbjorner/synthesis" style="text-decoration: none;">
+<img src="./../images/github-icon.svg" width=16em title="Repository"/>
+</a>
+<a href="./../files/aisola2023-slides.pptx" style="text-decoration: none;">
+<img src="./../images/slides-icon.svg" width=16em title="Slides"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+In this paper, we propose a novel application of syntax-guided synthesis to find symbolic representations of a model’s decision-making process, designed for easy comprehension and validation by humans. Our approach takes input-output samples from complex machine learning models, such as deep neural networks, and automatically derives interpretable mimic programs. A mimic program precisely imitates the behavior of an opaque model over the provided data. We discuss various types of grammars that are well-suited for computing mimic programs for tabular and image input data. Our experiments demonstrate the potential of the proposed method: wesuccessfully synthesized mimic programs for neural networks trained on the MNIST and the Pima Indians diabetes data sets. All experiments were performed using the SMT-based cvc5 synthesis tool.
+<br>
+<br>
+<details><summary>BibTex:</summary>
+<pre>
+@inproceedings{bjorner2023formal,
+  title={Formal XAI via Syntax-Guided Synthesis},
+  author={Bj{\o}rner, Katrine and Judson, Samuel and Cano, Filip and Goldman, Drew and Shoemaker, Nick and Piskac, Ruzica and K{\"o}nighofer, Bettina},
+  booktitle = {Proceedings of {AISoLA} 2023},
+  year={2023}
+}
+
+</pre>
+</details>
+</div>
+</details>

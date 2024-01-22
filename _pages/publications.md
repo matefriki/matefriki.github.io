@@ -5,49 +5,51 @@ permalink: /publications/
 author_profile: true
 ---
 
-Years: [2023](#2023)・[2022](#2022)・[2019](#2019)・[2018](#2018)・[2017](#2017)
+Years: [2024](#2024)・[2023](#2023)・[2022](#2022)・[2019](#2019)・[2018](#2018)・[2017](#2017)
 
 
-## 2023 ##
+## 2024 ##
 
 ---
 
 <details>
 <summary> 
-<strong style="color:#52adc8">Formal XAI via Syntax-Guided Synthesis</strong> <br>
-Bjørner, K., Judson, S., <strong>Cano, F.</strong>, Goldman, D. , Shoemaker, N., Piscak, R. & Könighofer, B.
+<strong style="color:#52adc8">'Put the Car on the Stand': SMT-based Oracles for Investigating Decisions</strong> <br>
+Judson, S., Elacqua, M., <strong>Cano, F.</strong>, Antonopoulos, T., Könighofer, B., Shapiro, S. J. & Piscak, R.
 <br>
-Bridging the Gap Between AI and Reality (<strong>AISoLA</strong>) 2023.
-<a href="../files/isola23-paper.pdf"
-style="text-decoration: none;">
-<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
-</a>
-<a href="https://github.com/kbjorner/synthesis" style="text-decoration: none;">
-<img src="./../images/github-icon.svg" width=16em title="Repository"/>
-</a>
-<a href="./../files/aisola2023-slides.pptx" style="text-decoration: none;">
-<img src="./../images/slides-icon.svg" width=16em title="Slides"/>
-</a>
+ACM Symposium on Computer Science and Law (<strong>CSLAW</strong>) 2024.
 </summary>
 <br>
 <div style="margin-left: 2em">
 <strong> Abstract: </strong>
-In this paper, we propose a novel application of syntax-guided synthesis to find symbolic representations of a model’s decision-making process, designed for easy comprehension and validation by humans. Our approach takes input-output samples from complex machine learning models, such as deep neural networks, and automatically derives interpretable mimic programs. A mimic program precisely imitates the behavior of an opaque model over the provided data. We discuss various types of grammars that are well-suited for computing mimic programs for tabular and image input data. Our experiments demonstrate the potential of the proposed method: wesuccessfully synthesized mimic programs for neural networks trained on the MNIST and the Pima Indians diabetes data sets. All experiments were performed using the SMT-based cvc5 synthesis tool.
+Principled accountability in the aftermath of harms is essential to
+the trustworthy design and governance of algorithmic decision
+making. Legal theory offers a paramount method for assessing culpability: putting the agent ‘on the stand’ to subject their actions
+and intentions to cross-examination. We show that under minimal
+assumptions automated reasoning can rigorously interrogate algorithmic behaviors as in the adversarial process of legal fact finding.
+We use the formal methods of symbolic execution and satisfiability
+modulo theories (SMT) solving to discharge queries about agent
+behavior in factual and counterfactual scenarios, as adaptively formulated by a human investigator. We implement our framework
+and demonstrate its utility on an illustrative car crash scenario.
 <br>
 <br>
 <details><summary>BibTex:</summary>
 <pre>
-@inproceedings{bjorner2023formal,
-  title={Formal XAI via Syntax-Guided Synthesis},
-  author={Bj{\o}rner, Katrine and Judson, Samuel and Cano, Filip and Goldman, Drew and Shoemaker, Nick and Piskac, Ruzica and K{\"o}nighofer, Bettina},
-  booktitle = {Proceedings of {AISoLA} 2023},
+@inproceedings{canocordoba2023analyzing,
+  title={Analyzing Intentional Behavior in Autonomous Agents under Uncertainty},
+  author={Cano C{\'o}rdoba, Filip and Judson, Samuel and Antonopoulos, Timos and Bj{\o}rner, Katrine and Shoemaker, Nicholas and Shapiro, Scott J and Piskac, Ruzica and K{\"o}nighofer, Bettina},
+  booktitle = {Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence, {IJCAI} 2023},
   year={2023}
 }
-
 </pre>
 </details>
 </div>
 </details>
+
+---
+
+
+## 2023 ##
 
 ---
 
@@ -139,6 +141,122 @@ Agents operating in physical environments need to be able to handle delays in th
 </details>
 
 ---
+
+
+<details>
+<summary> 
+<strong style="color:#52adc8">Formal XAI via Syntax-Guided Synthesis</strong> <br>
+Bjørner, K., Judson, S., <strong>Cano, F.</strong>, Goldman, D. , Shoemaker, N., Piscak, R. & Könighofer, B.
+<br>
+Bridging the Gap Between AI and Reality (<strong>AISoLA</strong>) 2023.
+<a href="../files/isola23-paper.pdf"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+<a href="https://github.com/kbjorner/synthesis" style="text-decoration: none;">
+<img src="./../images/github-icon.svg" width=16em title="Repository"/>
+</a>
+<a href="./../files/aisola2023-slides.pptx" style="text-decoration: none;">
+<img src="./../images/slides-icon.svg" width=16em title="Slides"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+In this paper, we propose a novel application of syntax-guided synthesis to find symbolic representations of a model’s decision-making process, designed for easy comprehension and validation by humans. Our approach takes input-output samples from complex machine learning models, such as deep neural networks, and automatically derives interpretable mimic programs. A mimic program precisely imitates the behavior of an opaque model over the provided data. We discuss various types of grammars that are well-suited for computing mimic programs for tabular and image input data. Our experiments demonstrate the potential of the proposed method: wesuccessfully synthesized mimic programs for neural networks trained on the MNIST and the Pima Indians diabetes data sets. All experiments were performed using the SMT-based cvc5 synthesis tool.
+<br>
+<br>
+<details><summary>BibTex:</summary>
+<pre>
+@inproceedings{DBLP:conf/vecos/BjornerJCGSPK23,
+  author       = {Katrine Bj{\o}rner and
+                  Samuel Judson and
+                  Filip Cano and
+                  Drew Goldman and
+                  Nicholas Shoemaker and
+                  Ruzica Piskac and
+                  Bettina K{\"{o}}nighofer},
+  title        = {Formal {XAI} via Syntax-Guided Synthesis},
+  booktitle    = {AISoLA},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {14380},
+  pages        = {119--137},
+  publisher    = {Springer},
+  year         = {2023}
+}
+
+</pre>
+</details>
+</div>
+</details>
+
+
+---
+
+
+<details>
+<summary> 
+<strong style="color:#52adc8">Continuous Engineering for Trustworthy Learning-Enabled Autonomous Systems</strong> <br>
+Bensalem, S., Katsaros, P., Nickovic, D., Liao, B. H.-C., Ruiz Nolasco, R., Abl El Salman Ahmed, M., Beyene, T. A., <strong>Cano, F.</strong>, 
+Delacourt, A., Esen, H., Forrai, A., He, W., Huang, X., Kekatos, N., Könighofer, B., Paulitsch, M., Peled, D., Ponchant, M., Sorokin, L., Tong, S., Wu, C.
+<br>
+Bridging the Gap Between AI and Reality (<strong>AISoLA</strong>) 2023.
+<a href="../files/isola23-paper.pdf"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+<a href="https://github.com/kbjorner/synthesis" style="text-decoration: none;">
+<img src="./../images/github-icon.svg" width=16em title="Repository"/>
+</a>
+<a href="./../files/aisola2023-slides.pptx" style="text-decoration: none;">
+<img src="./../images/slides-icon.svg" width=16em title="Slides"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+Learning-enabled autonomous systems (LEAS) use machine learning (ML) components for essential functions of autonomous operation, such as perception and control. LEAS are often safety-critical. The development and integration of trustworthy ML components present new challenges that extend beyond the boundaries of system’s design to the system’s operation in its real environment. This paper introduces the methodology and tools developed within the frame of the FOCETA European project towards the continuous engineering of trustworthy LEAS. Continuous engineering includes iterations between two alternating phases, namely: (i) design and virtual testing, and (ii) deployment and operation. Phase (i) encompasses the design of trustworthy ML components and the system’s validation with respect to formal specifications of its requirements via modeling and simulation. An integral part of both the simulation-based testing and the operation of LEAS is the monitoring and enforcement of safety, security and performance properties and the acquisition of information for the system’s operation in its environment. Finally, we show how the FOCETA approach has been applied to realistic continuous engineering workflowsfor three different LEAS from automotive and medical application domains.
+<br>
+<br>
+<details><summary>BibTex:</summary>
+<pre>
+@inproceedings{DBLP:conf/vecos/BensalemKNLNABCDEFHHKKPPPSTW23,
+  author       = {Saddek Bensalem and
+                  Panagiotis Katsaros and
+                  Dejan Nickovic and
+                  Brian Hsuan{-}Cheng Liao and
+                  Ricardo Ruiz Nolasco and
+                  Mohamed Abd El Salam Ahmed and
+                  Tewodros A. Beyene and
+                  Filip Cano and
+                  Antoine Delacourt and
+                  Hasan Esen and
+                  Alexandru Forrai and
+                  Weicheng He and
+                  Xiaowei Huang and
+                  Nikolaos Kekatos and
+                  Bettina K{\"{o}}nighofer and
+                  Michael Paulitsch and
+                  Doron Peled and
+                  Matthieu Ponchant and
+                  Lev Sorokin and
+                  Son Tong and
+                  Changshun Wu},
+  title        = {Continuous Engineering for Trustworthy Learning-Enabled Autonomous
+                  Systems},
+  booktitle    = {AISoLA},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {14380},
+  pages        = {256--278},
+  publisher    = {Springer},
+  year         = {2023}
+}
+
+</pre>
+</details>
+</div>
+</details>
+
 
 ## 2022 ##
 
