@@ -12,12 +12,94 @@ Years: [2024](#2024)・[2023](#2023)・[2022](#2022)・[2019](#2019)・[2018](#2
 
 ---
 
+
+
+<details>
+<summary> 
+<strong style="color:#52adc8">Abstraction-Based Decision Making for Statistical Properties</strong> <br>
+ <strong>Cano, F.</strong>, Henzinger, T.A., Könighofer, B., Kueffner, K. & Mallik, K,
+<br>
+International Conference on Formal Structures for Computation and Deduction (<strong>FSCD</strong>) 2024.
+<a href="./../files/fscd24-paper.pdf"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+Sequential decision-making in probabilistic environments is a fundamental problem with many applications in AI and economics. In this paper, we present an algorithm for synthesizing sequential decision-making agents that optimize statistical properties such as maximum and average response times. In the general setting of sequential decision-making, the environment is modeled as a random process that generates inputs. The agent responds to each input, aiming to maximize rewards and minimize costs within a specified time horizon. The corresponding synthesis problem is known to be PSPACE-hard. We consider the special case where the input distribution, reward, and cost depend on input-output statistics specified by counter automata. For such problems, this paper presents the first PTIME synthesis algorithms. We introduce the notion of statistical abstraction, which clusters statistically indistinguishable input-output sequences into equivalence classes. This abstraction allows for a dynamic programming algorithm whose complexity grows polynomially with the considered horizon, making the statistical case exponentially more efficient than the general case. We evaluate our algorithm on three different application scenarios of a client-server protocol, where multiple clients compete via bidding to gain access to the service offered by the server. The synthesized policies optimize profit while guaranteeing that none of the server’s clients is disproportionately starved of the service.
+<br>
+<br>
+<details><summary>BibTex:</summary>
+<pre>
+@inproceedings{cano2024abstraction,
+  author =	{Cano, Filip and Henzinger, Thomas A. and K\"{o}nighofer, Bettina and Kueffner, Konstantin and Mallik, Kaushik},
+  title =	{Abstraction-Based Decision Making for Statistical Properties},
+  booktitle =	{9th International Conference on Formal Structures for Computation and Deduction (FSCD 2024)},
+  pages =	{2:1--2:17},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  year =	{2024},
+  volume =	{299},
+  publisher =	{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address =	{Dagstuhl, Germany}
+}
+
+</pre>
+</details>
+</div>
+</details>
+
+---
+
+<details>
+<summary> 
+<strong style="color:#52adc8">soid: a Tool for Legal Accountability for Automated Decision Making </strong> <br>
+Judson, S., Elacqua, M., <strong>Cano, F.</strong>, Antonopoulos, T., Könighofer, B., Shapiro, S. J. & Piscak, R.
+<br>
+International Conference of Computer Aided Verification (<strong>CAV</strong>) 2024.
+<a href="./../files/cav24-paper.pdf"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+We present soid, a tool for interrogating the decision making of autonomous agents using SMT-based automated reasoning. Relying on the Z3 SMT solver and KLEE symbolic execution engine, soid allows investigators to receive rigorously proven answers to factual and counterfactual queries about agent behavior, enabling effective legal and engineering accountability for harmful or otherwise incorrect decisions. We evaluate soid qualitatively and quantitatively on a pair of examples, i) a buggy implementation of a classic decision tree inference benchmark from the explainable AI (XAI) literature; and ii) a car crash in a simulated physics environment. For the latter, we also contribute the soid-gui, a domain-specific, web-based example interface for legal and other practitioners to specify factual and counterfactual queries without requiring sophisticated programming or formal methods expertise.
+<br>
+<br>
+<details><summary>BibTex:</summary>
+<pre>
+@inproceedings{judson2024soid,
+  title={soid: {A} Tool for Legal Accountability for Automated Decision Making},
+  author={Judson, Samuel and Elacqua, Matthee and Cano, Filip and Antonopoulos, Timos and K{\"o}nighofer, Bettina and Shapiro, Scott J. and Piskac, Ruzica},
+  booktitle = {Computer Aided Verification - 36th International Conference, {CAV}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {14682},
+  pages        = {233--246},
+  publisher    = {Springer},
+  year         = {2024}
+}
+
+
+</pre>
+</details>
+</div>
+</details>
+
+---
+
 <details>
 <summary> 
 <strong style="color:#52adc8">'Put the Car on the Stand': SMT-based Oracles for Investigating Decisions</strong> <br>
 Judson, S., Elacqua, M., <strong>Cano, F.</strong>, Antonopoulos, T., Könighofer, B., Shapiro, S. J. & Piscak, R.
 <br>
 ACM Symposium on Computer Science and Law (<strong>CSLAW</strong>) 2024.
+<a href="./../files/cslaw24-paper.pdf"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
 </summary>
 <br>
 <div style="margin-left: 2em">
@@ -35,12 +117,17 @@ and demonstrate its utility on an illustrative car crash scenario.
 <br>
 <details><summary>BibTex:</summary>
 <pre>
-@inproceedings{canocordoba2023analyzing,
-  title={Analyzing Intentional Behavior in Autonomous Agents under Uncertainty},
-  author={Cano C{\'o}rdoba, Filip and Judson, Samuel and Antonopoulos, Timos and Bj{\o}rner, Katrine and Shoemaker, Nicholas and Shapiro, Scott J and Piskac, Ruzica and K{\"o}nighofer, Bettina},
-  booktitle = {Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence, {IJCAI} 2023},
-  year={2023}
+@inproceedings{judson2024put,
+  title={'Put the Car on the Stand': {SMT}-based Oracles for Investigating Decisions},
+  author={Judson, Samuel and Elacqua, Matthee and Cano, Filip and Antonopoulos, Timos and K{\"o}nighofer, Bettina and Shapiro, Scott J. and Piskac, Ruzica},
+  booktitle    = {Proceedings of the Symposium on Computer Science and Law, {CSLAW}
+                  2024, Boston, MA, USA, March 12-13, 2024},
+  pages        = {73--85},
+  publisher    = {{ACM}},
+  year         = {2024}
 }
+
+
 </pre>
 </details>
 </div>
