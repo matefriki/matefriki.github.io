@@ -9,17 +9,30 @@ redirect_from:
 
 {% include base_path %}
 
+Full CV: <a href="./../files/CV_academic.pdf"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+
 Education
 ======
+* Ph.D. in Computer Science, Graz University of Technology, 2021 - 2025 (expected)
+* M.S. in Advanced Mathematics and Mathematical Engineering, BarcelonaTech, 2018 - 2019
 * B.S. Mathematics, BarcelonaTech, 2013 - 2018
 * B.S. Physics Engineering, BarcelonaTech, 2013 - 2018
-* M.S. in Advanced Mathematics and Mathematical Engineering, BarcelonaTech, 2018 - 2019
-* Ph.D. in Computer Science, Graz University of Technology, 2021 - current
 
 Work experience
 ======
-* 2020-21: Data Scientist (AI Team)
-  * [Basetis](basetis.com)
+* 2021-25: University Project Assistant. Graz University of Technology, Graz.
+* 2020-21: Data Scientist. AI Team at [Basetis](basetis.com), Barcelona.
+* 2018-19: Private Academy Tutor. Academia Sol, Barcelona.
+
+Languages
+======
+* Human: Catalan (native), Spanish (native), English (fluent), German (basic)
+* Computer: Python, C++, MATLAB, Prism (probabilistic model checking)
+
+
 
 <!-- Skills
 ======
@@ -49,7 +62,7 @@ Work experience
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
 
-Service and leadership
+<!-- Service and leadership
 ======
 * PC Member: IJCAI (2024), CAV-AE (2023, 2024), VMCAI-AE (2024), 
-* Subreviewer for TACAS (2023), CAV-AE (2022), RV (2022), VMCAI (2024), AISoLA (2023)
+* Subreviewer for TACAS (2023), CAV-AE (2022), RV (2022), VMCAI (2024), AISoLA (2023) -->
