@@ -87,6 +87,7 @@ author:
   employer         : 
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=kfKzEcYAAAAJ"
+  dblp             : "https://dblp.org/pid/320/0091.html"
   email            :  "filip.cano@iaik.tugraz.at"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -109,7 +110,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@filipcano95"
+  twitter          : #"@filipcano95"
   vine             :
   weibo            :
   xing             :
