@@ -5,8 +5,20 @@ permalink: /talks/
 author_profile: true
 ---
 
-Years: [2023](#2023)・[2022](#2022)・[2021](#2021)・[2019](#2019)
+Years: [2024](#2024)・ [2023](#2023)・[2022](#2022)・[2021](#2021)・[2019](#2019)
 
+## 2024 ##
+
+---
+
+<p>
+<strong style="color:#52adc8">Analyzing Intentional Behavior in Autonomous Agents under Uncertainty
+</strong> <br>
+AGI Leap Summit, Virtual Event (remote).
+<a href="https://www.youtube.com/live/P5m4X_yHLMo?si=Rxay6immZCMn0663&t=22" style="text-decoration: none;">
+<img src="./../images/video-icon.svg" width=16em title="Talk recording"/>
+</a>
+</p>
 
 ## 2023 ##
 
