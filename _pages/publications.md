@@ -123,7 +123,7 @@ and demonstrate its utility on an illustrative car crash scenario.
   booktitle    = {Proceedings of the Symposium on Computer Science and Law, {CSLAW}
                   2024, Boston, MA, USA, March 12-13, 2024},
   pages        = {73--85},
-  publisher    = {{ACM}},
+  publisher    = {ACM},
   year         = {2024}
 }
 
@@ -288,15 +288,9 @@ Bensalem, S., Katsaros, P., Nickovic, D., Liao, B. H.-C., Ruiz Nolasco, R., Abl 
 Delacourt, A., Esen, H., Forrai, A., He, W., Huang, X., Kekatos, N., Könighofer, B., Paulitsch, M., Peled, D., Ponchant, M., Sorokin, L., Tong, S., Wu, C.
 <br>
 Bridging the Gap Between AI and Reality (<strong>AISoLA</strong>) 2023.
-<a href="../files/isola23-paper.pdf"
+<a href="https://link.springer.com/content/pdf/10.1007/978-3-031-46002-9_15.pdf?pdf=inline+link"
 style="text-decoration: none;">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
-</a>
-<a href="https://github.com/kbjorner/synthesis" style="text-decoration: none;">
-<img src="./../images/github-icon.svg" width=16em title="Repository"/>
-</a>
-<a href="./../files/aisola2023-slides.pptx" style="text-decoration: none;">
-<img src="./../images/slides-icon.svg" width=16em title="Slides"/>
 </a>
 </summary>
 <br>

@@ -97,6 +97,6 @@ This report documents the program and the outcomes of Dagstuhl Seminar 23411 "Ac
 
 ### Peer-Reviewing
 
-* PC Member: IJCAI (2024), CAV-AE (2023, 2024), VMCAI-AE (2024)
+* PC Member: IJCAI (2024), CAV-AE (2023, 2024), VMCAI-AE (2024), TACAS-AE (2025)
 * Journal Reviewer: Science of Computer Programming (2024)
 * Conference subreviewer: TACAS (2023), CAV-AE (2022), KR (2024), RV (2022), FMCAD (2021 - 2023), VMCAI (2024), AISoLA (2023, 2024)
