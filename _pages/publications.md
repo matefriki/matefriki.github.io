@@ -288,7 +288,7 @@ Bensalem, S., Katsaros, P., Nickovic, D., Liao, B. H.-C., Ruiz Nolasco, R., Abl 
 Delacourt, A., Esen, H., Forrai, A., He, W., Huang, X., Kekatos, N., Könighofer, B., Paulitsch, M., Peled, D., Ponchant, M., Sorokin, L., Tong, S., Wu, C.
 <br>
 Bridging the Gap Between AI and Reality (<strong>AISoLA</strong>) 2023.
-<a href="https://link.springer.com/content/pdf/10.1007/978-3-031-46002-9_15.pdf?pdf=inline+link"
+<a href="https://link.springer.com/content/pdf/10.1007/978-3-031-46002-9_15.pdf"
 style="text-decoration: none;">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
 </a>
