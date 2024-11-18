@@ -12,6 +12,12 @@ Years: [2024](#2024)・ [2023](#2023)・[2022](#2022)・[2021](#2021)・[2019](#
 ---
 
 <p>
+<strong style="color:#52adc8">Explaining Autonomous Agents in Terms of Intentional Behaviour
+</strong> <br>
+Tom Henzinger's group seminar at ISTA, Klosterneuburg.
+</p>
+
+<p>
 <strong style="color:#52adc8">Analyzing Intentional Behavior in Autonomous Agents under Uncertainty
 </strong> <br>
 AGI Leap Summit, Virtual Event (remote).

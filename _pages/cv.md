@@ -9,10 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-Full CV: <a href="./../files/CV_academic.pdf"
+<!-- Full CV: <a href="./../files/CV_academic.pdf"
 style="text-decoration: none;">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
-</a>
+</a> -->
 
 Education
 ======

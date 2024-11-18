@@ -64,14 +64,7 @@ at the Joint AI Safety - Safe RL Workshop @ IJCAI'23.
 
 ---
 
-I am a PhD student in the Institute of Applied Information Processing and Communications
-([IAIK](https://www.iaik.tugraz.at) by its German initials) at the Graz University of Technology. 
-<br>
-I use formal methods to develop trust in
-AI.
-I am particularly interested in accountability of AI systems and also in runtime verification and enforcement of safety-critical properties.
-<br>
-I received my MSc degree in Advanced Mathematics and Mathematical Engineering from [BarcelonaTech](https://www.upc.edu) in 2019.
+Filip Cano is a PhD candidate at Graz University of Technology. His research focuses on formal methods to develop trustworthy AI systems, particularly in sequential decision-making contexts, like reinforcement learning. His interests include explainability and accountability of AI systems, as well as verification and enforcement of safety-critical properties. Prior to joining TU Graz, he earned an MSc in Advanced Mathematics and Mathematical Engineering from BarcelonaTech in 2019.
 
 ---
 
