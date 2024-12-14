@@ -5,8 +5,30 @@ permalink: /publications/
 author_profile: true
 ---
 
-Years: [2024](#2024)・[2023](#2023)・[2022](#2022)・[2019](#2019)・[2018](#2018)・[2017](#2017)
+Years: [2025](#2025)・[2024](#2024)・[2023](#2023)・[2022](#2022)・[2019](#2019)・[2018](#2018)
 
+
+## 2025 ##
+
+---
+
+<!-- 
+
+<details>
+<summary> 
+<strong style="color:#52adc8">Fairness Shields: A Neurosymbolic Approach for Guaranteed Fair Decision-Making</strong> <br>
+ <strong>Cano, F.</strong>, Henzinger, T.A., Könighofer, B., Kueffner, K. & Mallik, K,
+<br>
+AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>) 2025.
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+As AI-based decision-makers increasingly influence decisions that affect humans, it is crucial to ensure their decisions are fair and unbiased. Most algorithms for fair decision-making provide probabilistic guarantees of fairness over the long run, not providing any guarantees at specific intervals, such as yearly or quarterly. In this paper, we introduce a novel neurosymbolic approach to guarantee fairness in every finite run through the use of a symbolic runtime enforcer called a fairness shield. The fairness shield monitors and minimally intervenes in the decision-maker’s decisions to ensure that fairness criteria are met either within a bounded horizon or periodically, while also minimizing the costs associated with such interventions as specified by a given cost function. Given a distribution over future decisions and their costs, we present algorithms to compute fairness shields by solving a bounded-horizon optimal control problem. We present synthesis algorithms for four types of fairness shields, each tailored to different operational settings. Our empirical evaluation demonstrates the effectiveness of these shields in ensuring fairness while maintaining cost efficiency across various scenarios.
+<br>
+<br>
+</div>
+</details> -->
 
 ## 2024 ##
 
@@ -55,7 +77,7 @@ Sequential decision-making in probabilistic environments is a fundamental proble
 <details>
 <summary> 
 <strong style="color:#52adc8">soid: a Tool for Legal Accountability for Automated Decision Making </strong> <br>
-Judson, S., Elacqua, M., <strong>Cano, F.</strong>, Antonopoulos, T., Könighofer, B., Shapiro, S. J. & Piscak, R.
+Judson, S., Elacqua, M., <strong>Cano, F.</strong>, Antonopoulos, T., Könighofer, B., Shapiro, S. J. & Piskac, R.
 <br>
 International Conference of Computer Aided Verification (<strong>CAV</strong>) 2024.
 <a href="./../files/cav24-paper.pdf"
@@ -93,7 +115,7 @@ We present soid, a tool for interrogating the decision making of autonomous agen
 <details>
 <summary> 
 <strong style="color:#52adc8">'Put the Car on the Stand': SMT-based Oracles for Investigating Decisions</strong> <br>
-Judson, S., Elacqua, M., <strong>Cano, F.</strong>, Antonopoulos, T., Könighofer, B., Shapiro, S. J. & Piscak, R.
+Judson, S., Elacqua, M., <strong>Cano, F.</strong>, Antonopoulos, T., Könighofer, B., Shapiro, S. J. & Piskac, R.
 <br>
 ACM Symposium on Computer Science and Law (<strong>CSLAW</strong>) 2024.
 <a href="./../files/cslaw24-paper.pdf"
@@ -143,7 +165,7 @@ and demonstrate its utility on an illustrative car crash scenario.
 <details>
 <summary> 
 <strong style="color:#52adc8">Analyzing Intentional Behavior in Autonomous Agents under Uncertainty</strong> <br>
-<strong>Cano Córdoba, F.</strong>, Judson, S., Antonopoulos, T., Bjørner, K., Shoemaker, N., Shapiro, S. J., Piscak, R. & Könighofer, B.
+<strong>Cano Córdoba, F.</strong>, Judson, S., Antonopoulos, T., Bjørner, K., Shoemaker, N., Shapiro, S. J., Piskac, R. & Könighofer, B.
 <br>
 International Joint Conference of Artificial Intelligence (<strong>IJCAI</strong>) 2023.
 <a href="https://www.ijcai.org/proceedings/2023/0042.pdf"
@@ -233,7 +255,7 @@ Agents operating in physical environments need to be able to handle delays in th
 <details>
 <summary> 
 <strong style="color:#52adc8">Formal XAI via Syntax-Guided Synthesis</strong> <br>
-Bjørner, K., Judson, S., <strong>Cano, F.</strong>, Goldman, D. , Shoemaker, N., Piscak, R. & Könighofer, B.
+Bjørner, K., Judson, S., <strong>Cano, F.</strong>, Goldman, D. , Shoemaker, N., Piskac, R. & Könighofer, B.
 <br>
 Bridging the Gap Between AI and Reality (<strong>AISoLA</strong>) 2023.
 <a href="../files/isola23-paper.pdf"
@@ -456,38 +478,3 @@ The basic structure and definitions of artificial neural networks are exposed, a
 </div>
 </details>
 
----
-
-## 2017 ##
-
----
-
-<details>
-<summary> 
-<strong style="color:#52adc8">Theory of Intelligence with Forgetting</strong> <br>
-<strong>Cano Córdoba, F.</strong> , Sarma S, Subirana B.
-<br>
-Center For Brain Minds and Machines (CBMM) Memo no. 71, 2017.
-<a href="https://dspace.mit.edu/bitstream/handle/1721.1/113608/CBMM-Memo-071.pdf">
-<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
-</a>
-</summary>
-<br>
-<div style="margin-left: 2em">
-<strong> Abstract: </strong>
-In [42] we suggested that any memory stored in the human/animal brain is forgotten following the Ebingghaus curve – in this follow-on paper, we define a novel algebraic structure, a Forgetting Neural Network, as a simple mathematical model based on assuming parameters of a neuron in a neural network are forgotten using the Ebbinghaus forgetting curve. We model neural networks in Sobolev spaces using [35] as our departure point and demonstrate four novel theorems of Forgetting Neural Networks: theorem of non-instantaneous forgetting, theorem of universal forgetting, curse of forgetting theorem, and center of mass theorem. We also proof the novel decreasing inference theorem which we feel is relevant beyond Ebbinghaus forgetting: compositional deep neural networks cannot arbitrarily combine low level “features” – meaning only certain arrangements of features calculated in intermediate levels can show up in higher levels. This proof leads us to present the possibly most efficient representation of neural networks’ “minimal polynomial basis layer” (MPBL) since our basis construct can generate n polynomials of order m using only 2m + 1 + n neurons. As we briefly discuss in the conclusion, there are about 10 similarities between forgetting neural networks and human forgetting and our research elicits more questions than it answers and may have implications for neuroscience research including our understanding of how babies learn (or, perhaps, forget), including what we call the baby forgetting conjecture.
-
-<br>
-<br>
-<details><summary>BibTex:</summary>
-<pre>
-@techreport{cano2017theory,
-  title={Theory of intelligence with forgetting: Mathematical theorems explaining human universal forgetting using “forgetting neural networks”},
-  author={Cano-C{\'o}rdoba, Felipe and Sarma, Sanjay and Subirana, Brian},
-  year={2017},
-  institution={Center for Brains, Minds and Machines (CBMM)}
-}
-</pre>
-</details>
-</div>
-</details>

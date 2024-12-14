@@ -71,12 +71,28 @@ Filip Cano is a PhD candidate at Graz University of Technology. His research foc
 ## Selected publications
 
 
+<!-- <details>
+<summary> 
+<strong style="color:#52adc8">Fairness Shields: A Neurosymbolic Approach for Guaranteed Fair Decision-Making</strong> <br>
+ <strong>Cano, F.</strong>, Henzinger, T.A., Könighofer, B., Kueffner, K. & Mallik, K,
+<br>
+AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>) 2025. (Recently accepted)
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+As AI-based decision-makers increasingly influence decisions that affect humans, it is crucial to ensure their decisions are fair and unbiased. Most algorithms for fair decision-making provide probabilistic guarantees of fairness over the long run, not providing any guarantees at specific intervals, such as yearly or quarterly. In this paper, we introduce a novel neurosymbolic approach to guarantee fairness in every finite run through the use of a symbolic runtime enforcer called a fairness shield. The fairness shield monitors and minimally intervenes in the decision-maker’s decisions to ensure that fairness criteria are met either within a bounded horizon or periodically, while also minimizing the costs associated with such interventions as specified by a given cost function. Given a distribution over future decisions and their costs, we present algorithms to compute fairness shields by solving a bounded-horizon optimal control problem. We present synthesis algorithms for four types of fairness shields, each tailored to different operational settings. Our empirical evaluation demonstrates the effectiveness of these shields in ensuring fairness while maintaining cost efficiency across various scenarios.
+<br>
+<br>
+</div>
+</details> -->
+
 ---
 
 <details>
 <summary> 
 <strong style="color:#52adc8">Analyzing Intentional Behavior in Autonomous Agents under Uncertainty</strong> <br>
-<strong>Cano Córdoba, F.</strong>, Judson, S., Antonopoulos, T., Bjørner, K., Shoemaker, N., Shapiro, S. J., Piscak, R. & Könighofer, B.
+<strong>Cano Córdoba, F.</strong>, Judson, S., Antonopoulos, T., Bjørner, K., Shoemaker, N., Shapiro, S. J., Piskac, R. & Könighofer, B.
 <br>
 International Joint Conference of Artificial Intelligence (<strong>IJCAI</strong>) 2023.
 <a href="https://www.ijcai.org/proceedings/2023/0042.pdf"
@@ -162,37 +178,41 @@ Agents operating in physical environments need to be able to handle delays in th
 
 ---
 
-
 <details>
 <summary> 
-<strong style="color:#52adc8">Formal XAI via Syntax-Guided Synthesis</strong> <br>
-Bjørner, K., Judson, S., <strong>Cano, F.</strong>, Goldman, D. , Shoemaker, N., Piscak, R. & Könighofer, B.
+<strong style="color:#52adc8">Search-Based Testing of Reinforcement Learning</strong> <br>
+Tappler, M., <strong>Cano Córdoba, F.</strong>, Aichernig, B. K., & Könighofer, B. 
 <br>
-Bridging the Gap Between AI and Reality (<strong>AISoLA</strong>) 2023.
-<a href="../files/isola23-paper.pdf"
-style="text-decoration: none;">
+International Joint Conference of Artificial Intelligence (<strong>IJCAI</strong>) 2022.
+<a href="https://www.ijcai.org/proceedings/2022/0072.pdf" style="text-decoration: none;">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
 </a>
-<a href="https://github.com/kbjorner/synthesis" style="text-decoration: none;">
-<img src="./../images/github-icon.svg" width=16em title="Repository"/>
-</a>
-<a href="./../files/aisola2023-slides.pptx" style="text-decoration: none;">
-<img src="./../images/slides-icon.svg" width=16em title="Slides"/>
+<a href="https://slideslive.com/38985048/searchbased-testing-of-reinforcement-learning" style="text-decoration: none;">
+<img src="./../images/video-icon.svg" width=16em title="Talk recording"/>
 </a>
 </summary>
 <br>
 <div style="margin-left: 2em">
 <strong> Abstract: </strong>
-In this paper, we propose a novel application of syntax-guided synthesis to find symbolic representations of a model’s decision-making process, designed for easy comprehension and validation by humans. Our approach takes input-output samples from complex machine learning models, such as deep neural networks, and automatically derives interpretable mimic programs. A mimic program precisely imitates the behavior of an opaque model over the provided data. We discuss various types of grammars that are well-suited for computing mimic programs for tabular and image input data. Our experiments demonstrate the potential of the proposed method: wesuccessfully synthesized mimic programs for neural networks trained on the MNIST and the Pima Indians diabetes data sets. All experiments were performed using the SMT-based cvc5 synthesis tool.
+Evaluation of deep reinforcement learning (RL) is inherently challenging. Especially the opaqueness of learned policies and the stochastic nature of both agents and environments make testing the behavior of deep RL agents difficult. We present a search-based testing framework that enables a wide range of novel analysis capabilities for evaluating the safety and performance of deep RL agents. For safety testing, our framework utilizes a search algorithm that searches for a reference trace that solves the RL task. The backtracking states of the search, called boundary states, pose safety-critical situations. We create safety test-suites that evaluate how well the RL agent escapes safety-critical situations near these boundary states. For robust performance testing, we create a diverse set of traces via fuzz testing. These fuzz traces are used to bring the agent into a wide variety of potentially unknown states from which the average performance of the agent is compared to the average performance of the fuzz traces. We apply our search-based testing approach on RL for Nintendo's Super Mario Bros.
+
 <br>
 <br>
 <details><summary>BibTex:</summary>
 <pre>
-@inproceedings{bjorner2023formal,
-  title={Formal XAI via Syntax-Guided Synthesis},
-  author={Bj{\o}rner, Katrine and Judson, Samuel and Cano, Filip and Goldman, Drew and Shoemaker, Nick and Piskac, Ruzica and K{\"o}nighofer, Bettina},
-  booktitle = {Proceedings of {AISoLA} 2023},
-  year={2023}
+@inproceedings{ijcai2022p0072,
+  title     = {Search-Based Testing of Reinforcement Learning},
+  author    = {Tappler, Martin and Cano Córdoba, Filip and Aichernig, Bernhard K. and Könighofer, Bettina},
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on
+               Artificial Intelligence, {IJCAI-22}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Lud De Raedt},
+  pages     = {503--510},
+  year      = {2022},
+  month     = {7},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2022/72},
+  url       = {https://doi.org/10.24963/ijcai.2022/72},
 }
 
 </pre>

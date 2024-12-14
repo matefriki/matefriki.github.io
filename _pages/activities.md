@@ -11,7 +11,7 @@ author_profile: true
 <details>
 <summary> 
 <strong style="color:#52adc8">Safety Assurance for Autonomous Mobility (Dagstuhl Seminar 24071)</strong> <br>
-Jyotirmoy Deshmukh, Bettina Könighofer, Dejan Ničković, and Filip Cano
+Jyotirmoy Deshmukh, Bettina Könighofer, Dejan Ničković, and <strong>Filip Cano</strong>
 <br>
 Dagstuhl Reports, Volume 14, Issue 2, pp. 95-119, Schloss Dagstuhl – Leibniz-Zentrum für Informatik 2024.
 <a href="https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume14/issue02/24071/DagRep.14.2.95/DagRep.14.2.95.pdf"
@@ -56,7 +56,7 @@ This report documents the program and the outcomes of the Dagstuhl Seminar "Safe
 <details>
 <summary> 
 <strong style="color:#52adc8">Accountable Software Systems (Dagstuhl Seminar 23411)</strong> <br>
-Bettina Könighofer, Joshua A. Kroll, Ruzica Piskac, Michael Veale, and Filip Cano Córdoba
+Bettina Könighofer, Joshua A. Kroll, Ruzica Piskac, Michael Veale, and <strong>Filip Cano Córdoba</strong>
 <br>
 Dagstuhl Reports, Volume 13, Issue 10, pp. 24-49, Schloss Dagstuhl – Leibniz-Zentrum für Informatik 2024.
 <a href="https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume13/issue10/23411/DagRep.13.10.24/DagRep.13.10.24.pdf"
@@ -95,8 +95,39 @@ This report documents the program and the outcomes of Dagstuhl Seminar 23411 "Ac
 </div>
 </details>
 
+<details>
+<summary> 
+<strong style="color:#52adc8">Theory of Intelligence with Forgetting: Mathematical theorems explaining human universal forgetting using “forgetting neural networks”</strong> <br>
+<strong>Cano Córdoba, F.</strong> , Sarma S, Subirana B.
+<br>
+Center For Brain Minds and Machines (CBMM) Memo no. 71, 2017.
+<a href="https://dspace.mit.edu/bitstream/handle/1721.1/113608/CBMM-Memo-071.pdf">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+In [42] we suggested that any memory stored in the human/animal brain is forgotten following the Ebingghaus curve – in this follow-on paper, we define a novel algebraic structure, a Forgetting Neural Network, as a simple mathematical model based on assuming parameters of a neuron in a neural network are forgotten using the Ebbinghaus forgetting curve. We model neural networks in Sobolev spaces using [35] as our departure point and demonstrate four novel theorems of Forgetting Neural Networks: theorem of non-instantaneous forgetting, theorem of universal forgetting, curse of forgetting theorem, and center of mass theorem. We also proof the novel decreasing inference theorem which we feel is relevant beyond Ebbinghaus forgetting: compositional deep neural networks cannot arbitrarily combine low level “features” – meaning only certain arrangements of features calculated in intermediate levels can show up in higher levels. This proof leads us to present the possibly most efficient representation of neural networks’ “minimal polynomial basis layer” (MPBL) since our basis construct can generate n polynomials of order m using only 2m + 1 + n neurons. As we briefly discuss in the conclusion, there are about 10 similarities between forgetting neural networks and human forgetting and our research elicits more questions than it answers and may have implications for neuroscience research including our understanding of how babies learn (or, perhaps, forget), including what we call the baby forgetting conjecture.
+
+<br>
+<br>
+<details><summary>BibTex:</summary>
+<pre>
+@techreport{cano2017theory,
+  title={Theory of intelligence with forgetting: Mathematical theorems explaining human universal forgetting using “forgetting neural networks”},
+  author={Cano-C{\'o}rdoba, Felipe and Sarma, Sanjay and Subirana, Brian},
+  year={2017},
+  institution={Center for Brains, Minds and Machines (CBMM)}
+}
+</pre>
+</details>
+</div>
+</details>
+
 ### Peer-Reviewing
 
-* PC Member: ICLR (2025), IJCAI (2024), CAV-AE (2023, 2024), VMCAI-AE (2024), TACAS-AE (2025)
-* Journal Reviewer: Science of Computer Programming (2024)
-* Conference subreviewer: TACAS (2023), CAV-AE (2022), KR (2024), RV (2022), FMCAD (2021 - 2023), VMCAI (2024), AISoLA (2023, 2024)
+* Conference reviewer: ICLR (2025), IJCAI (2024).
+* Journal Reviewer: Science of Computer Programming (2024).
+* Conference subreviewer: AISoLA (2023, 2024), FMCAD (2021 - 2023), FoSSaCS (2025), KR (2024), RV (2022), TACAS (2023, 2025), VMCAI (2024).
+* Artifact evaluation: CAV (2022 - 2024), TACAS (2025), VMCAI (2024).
