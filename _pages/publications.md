@@ -12,23 +12,56 @@ Years: [2025](#2025)・[2024](#2024)・[2023](#2023)・[2022](#2022)・[2019](#2
 
 ---
 
-<!-- 
+
 
 <details>
 <summary> 
-<strong style="color:#52adc8">Fairness Shields: A Neurosymbolic Approach for Guaranteed Fair Decision-Making</strong> <br>
- <strong>Cano, F.</strong>, Henzinger, T.A., Könighofer, B., Kueffner, K. & Mallik, K,
+<strong style="color:#52adc8">Fairness Shields: Safeguarding against Biased Decision Makers</strong> <br>
+ <strong>Filip Cano</strong>, Thomas A. Henzinger, Bettina Könighofer, Konstantin Kueffner, Kaushik Mallik.
 <br>
-AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>) 2025.
+(To appear in) AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>) 2025.
+<a href="https://arxiv.org/pdf/2412.11994"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
 </summary>
 <br>
 <div style="margin-left: 2em">
 <strong> Abstract: </strong>
-As AI-based decision-makers increasingly influence decisions that affect humans, it is crucial to ensure their decisions are fair and unbiased. Most algorithms for fair decision-making provide probabilistic guarantees of fairness over the long run, not providing any guarantees at specific intervals, such as yearly or quarterly. In this paper, we introduce a novel neurosymbolic approach to guarantee fairness in every finite run through the use of a symbolic runtime enforcer called a fairness shield. The fairness shield monitors and minimally intervenes in the decision-maker’s decisions to ensure that fairness criteria are met either within a bounded horizon or periodically, while also minimizing the costs associated with such interventions as specified by a given cost function. Given a distribution over future decisions and their costs, we present algorithms to compute fairness shields by solving a bounded-horizon optimal control problem. We present synthesis algorithms for four types of fairness shields, each tailored to different operational settings. Our empirical evaluation demonstrates the effectiveness of these shields in ensuring fairness while maintaining cost efficiency across various scenarios.
+As AI-based decision-makers increasingly influence decisions that affect humans, it is crucial to ensure their decisions are fair and unbiased. Most algorithms for fair decision-making provide probabilistic guarantees of fairness over the long run, not providing any guarantees at specific intervals, such as yearly or quarterly. In this paper, we introduce a novel neurosymbolic approach to guarantee fairness in every finite run through the use of a symbolic runtime enforcer called a *fairness shield*. The fairness shield monitors and minimally intervenes in the decision-maker’s decisions to ensure that fairness criteria are met either within a bounded horizon or periodically, while also minimizing the costs associated with such interventions as specified by a given cost function. Given a distribution over future decisions and their costs, we present algorithms to compute fairness shields by solving a bounded-horizon optimal control problem. We present synthesis algorithms for four types of fairness shields, each tailored to different operational settings. Our empirical evaluation demonstrates the effectiveness of these shields in ensuring fairness while maintaining cost efficiency across various scenarios.
+<br>
+<br>
+</div>
+</details>
+
+<!-- ---
+
+
+
+
+<details>
+<summary> 
+<strong style="color:#52adc8">Machine Unlearning using Forgetting Neural Networks</strong> <br>
+ Amartya Hatua, Trung T. Nguyen, <strong>Filip Cano</strong>, Andrew H. Sung
+<br>
+International Conference on Agents and Artificial Intelligence (<strong>ICAART</strong>) 2025.
+<a href="https://arxiv.org/pdf/2410.22374"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+Modern computer systems store vast amounts of personal data, enabling advances in AI and ML but risking user privacy and trust. For privacy reasons, it is desired sometimes for an ML model to forget part of the data it was trained on. This paper presents a new approach to machine unlearning using forgetting neural networks (FNN). FNNs are neural networks with specific forgetting layers, that take inspiration from the processes involved when a human brain forgets. While FNNs had been proposed as a theoretical construct, they have not been previously used as a machine unlearning method. We describe four different types of forgetting layers and study their properties. In our experimental evaluation, we report our results on the MNIST handwritten digit recognition and fashion datasets. The effectiveness of the unlearned models was tested using Membership Inference Attacks (MIA). Successful experimental results demonstrate the great potential of our proposed method for dealing with the machine unlearning problem.
 <br>
 <br>
 </div>
 </details> -->
+
+
+
+
 
 ## 2024 ##
 
@@ -39,7 +72,7 @@ As AI-based decision-makers increasingly influence decisions that affect humans,
 <details>
 <summary> 
 <strong style="color:#52adc8">Abstraction-Based Decision Making for Statistical Properties</strong> <br>
- <strong>Cano, F.</strong>, Henzinger, T.A., Könighofer, B., Kueffner, K. & Mallik, K,
+ <strong>Filip Cano</strong>, Thomas A. Henzinger, Bettina Könighofer, Konstantin Kueffner, Kaushik Mallik.
 <br>
 International Conference on Formal Structures for Computation and Deduction (<strong>FSCD</strong>) 2024.
 <a href="./../files/fscd24-paper.pdf"
@@ -77,7 +110,7 @@ Sequential decision-making in probabilistic environments is a fundamental proble
 <details>
 <summary> 
 <strong style="color:#52adc8">soid: a Tool for Legal Accountability for Automated Decision Making </strong> <br>
-Judson, S., Elacqua, M., <strong>Cano, F.</strong>, Antonopoulos, T., Könighofer, B., Shapiro, S. J. & Piskac, R.
+Samuel Judson, Matthew Elacqua, <strong>Filip Cano</strong>, Timos Antonopoulos, Bettina Könighofer, Scott J. Shapiro, Ruzica Piskac.
 <br>
 International Conference of Computer Aided Verification (<strong>CAV</strong>) 2024.
 <a href="./../files/cav24-paper.pdf"
@@ -115,7 +148,7 @@ We present soid, a tool for interrogating the decision making of autonomous agen
 <details>
 <summary> 
 <strong style="color:#52adc8">'Put the Car on the Stand': SMT-based Oracles for Investigating Decisions</strong> <br>
-Judson, S., Elacqua, M., <strong>Cano, F.</strong>, Antonopoulos, T., Könighofer, B., Shapiro, S. J. & Piskac, R.
+Samuel Judson, Matthew Elacqua, <strong>Filip Cano</strong>, Timos Antonopoulos, Bettina Könighofer, Scott J. Shapiro, Ruzica Piskac.
 <br>
 ACM Symposium on Computer Science and Law (<strong>CSLAW</strong>) 2024.
 <a href="./../files/cslaw24-paper.pdf"
@@ -165,7 +198,7 @@ and demonstrate its utility on an illustrative car crash scenario.
 <details>
 <summary> 
 <strong style="color:#52adc8">Analyzing Intentional Behavior in Autonomous Agents under Uncertainty</strong> <br>
-<strong>Cano Córdoba, F.</strong>, Judson, S., Antonopoulos, T., Bjørner, K., Shoemaker, N., Shapiro, S. J., Piskac, R. & Könighofer, B.
+<strong>Filip Cano Córdoba</strong>, Samuel Judson, Timos Antonopoulos, Katrine Bjørner, Nick Shoemaker, Scott J. Shapiro, Ruzica Piskac, Bettina Könighofer.
 <br>
 International Joint Conference of Artificial Intelligence (<strong>IJCAI</strong>) 2023.
 <a href="https://www.ijcai.org/proceedings/2023/0042.pdf"
@@ -210,7 +243,7 @@ Principled accountability for autonomous decision-making in uncertain environmen
 <details>
 <summary> 
 <strong style="color:#52adc8">Safety Shielding under Delayed Observation</strong> <br>
-<strong>Cano Córdoba, F.</strong>, Palmisano, A., Fränzle, M., Bloem, R., & Könighofer, B. 
+<strong>Filip Cano Córdoba</strong>, Alexander Palmisano, Martin Fränzle, Roderick Bloem, Bettina Könighofer. 
 <br>
 International Conference on Automated Planning and Scheduling (<strong>ICAPS</strong>) 2023.
 <a href="https://ojs.aaai.org/index.php/ICAPS/article/view/27181/26954" style="text-decoration: none;">
@@ -255,7 +288,7 @@ Agents operating in physical environments need to be able to handle delays in th
 <details>
 <summary> 
 <strong style="color:#52adc8">Formal XAI via Syntax-Guided Synthesis</strong> <br>
-Bjørner, K., Judson, S., <strong>Cano, F.</strong>, Goldman, D. , Shoemaker, N., Piskac, R. & Könighofer, B.
+Katrine Bjørner, Samuel Judson, <strong>Filip Cano</strong>, Drew Goldman, Nick Shoemaker, Ruzica Piskac, Bettina Könighofer.
 <br>
 Bridging the Gap Between AI and Reality (<strong>AISoLA</strong>) 2023.
 <a href="../files/isola23-paper.pdf"
@@ -306,8 +339,7 @@ In this paper, we propose a novel application of syntax-guided synthesis to find
 <details>
 <summary> 
 <strong style="color:#52adc8">Continuous Engineering for Trustworthy Learning-Enabled Autonomous Systems</strong> <br>
-Bensalem, S., Katsaros, P., Nickovic, D., Liao, B. H.-C., Ruiz Nolasco, R., Abl El Salman Ahmed, M., Beyene, T. A., <strong>Cano, F.</strong>, 
-Delacourt, A., Esen, H., Forrai, A., He, W., Huang, X., Kekatos, N., Könighofer, B., Paulitsch, M., Peled, D., Ponchant, M., Sorokin, L., Tong, S., Wu, C.
+Saddek Bensalem, Panagiotis Katsaros, Dejan Ničković, Brian Hsuan-Cheng Liao, Ricardo Ruiz Nolasco, Mohamed Abd El Salam Ahmed, Tewodros A. Beyene, <strong>Filip Cano</strong>, Antoine Delacourt, Hasan Esen, Alexandru Forrai, Weicheng He, Xiaowei Huang, Nikolaos Kekatos, Bettina Könighofer, Michael Paulitsch, Doron Peled, Matthieu Ponchant, Lev Sorokin, Son Tong, Changshun Wu 
 <br>
 Bridging the Gap Between AI and Reality (<strong>AISoLA</strong>) 2023.
 <a href="https://link.springer.com/content/pdf/10.1007/978-3-031-46002-9_15.pdf"
@@ -368,7 +400,7 @@ Learning-enabled autonomous systems (LEAS) use machine learning (ML) components 
 <details>
 <summary> 
 <strong style="color:#52adc8">Search-Based Testing of Reinforcement Learning</strong> <br>
-Tappler, M., <strong>Cano Córdoba, F.</strong>, Aichernig, B. K., & Könighofer, B. 
+Martin Tappler, <strong>Filip Cano Córdoba</strong>, Bernhard K. Aichernig, Bettina Könighofer. 
 <br>
 International Joint Conference of Artificial Intelligence (<strong>IJCAI</strong>) 2022.
 <a href="https://www.ijcai.org/proceedings/2022/0072.pdf" style="text-decoration: none;">
@@ -416,7 +448,7 @@ Evaluation of deep reinforcement learning (RL) is inherently challenging. Especi
 <details>
 <summary> 
 <strong style="color:#52adc8">An Introduction to Polytope Theory through Ehrhart's Theorem</strong> <br>
-<strong>Cano Córdoba, F.</strong>
+<strong>Filip Cano Córdoba</strong>
 Master Thesis, 2019.
 <a href="https://upcommons.upc.edu/handle/2117/171328">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
@@ -452,7 +484,7 @@ A classic introduction to polytope theory is presented, serving as the foundatio
 <details>
 <summary> 
 <strong style="color:#52adc8">Theoretical study of artificial neural networks</strong> <br>
-<strong>Cano Córdoba, F.</strong> Bachelor Thesis, 2018.
+<strong>Filip Cano Córdoba</strong> Bachelor Thesis, 2018.
 <a href="https://upcommons.upc.edu/bitstream/handle/2117/121051/memoria.pdf">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
 </a>

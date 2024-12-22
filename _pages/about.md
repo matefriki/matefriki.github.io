@@ -71,28 +71,34 @@ Filip Cano is a PhD candidate at Graz University of Technology. His research foc
 ## Selected publications
 
 
-<!-- <details>
+
+<details>
 <summary> 
-<strong style="color:#52adc8">Fairness Shields: A Neurosymbolic Approach for Guaranteed Fair Decision-Making</strong> <br>
- <strong>Cano, F.</strong>, Henzinger, T.A., Könighofer, B., Kueffner, K. & Mallik, K,
+<strong style="color:#52adc8">Fairness Shields: Safeguarding against Biased Decision Makers</strong> <br>
+ <strong>Filip Cano</strong>, Thomas A. Henzinger, Bettina Könighofer, Konstantin Kueffner, Kaushik Mallik.
 <br>
-AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>) 2025. (Recently accepted)
+(To appear in) AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>) 2025.
+<a href="https://arxiv.org/pdf/2412.11994"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
 </summary>
 <br>
 <div style="margin-left: 2em">
 <strong> Abstract: </strong>
-As AI-based decision-makers increasingly influence decisions that affect humans, it is crucial to ensure their decisions are fair and unbiased. Most algorithms for fair decision-making provide probabilistic guarantees of fairness over the long run, not providing any guarantees at specific intervals, such as yearly or quarterly. In this paper, we introduce a novel neurosymbolic approach to guarantee fairness in every finite run through the use of a symbolic runtime enforcer called a fairness shield. The fairness shield monitors and minimally intervenes in the decision-maker’s decisions to ensure that fairness criteria are met either within a bounded horizon or periodically, while also minimizing the costs associated with such interventions as specified by a given cost function. Given a distribution over future decisions and their costs, we present algorithms to compute fairness shields by solving a bounded-horizon optimal control problem. We present synthesis algorithms for four types of fairness shields, each tailored to different operational settings. Our empirical evaluation demonstrates the effectiveness of these shields in ensuring fairness while maintaining cost efficiency across various scenarios.
+As AI-based decision-makers increasingly influence decisions that affect humans, it is crucial to ensure their decisions are fair and unbiased. Most algorithms for fair decision-making provide probabilistic guarantees of fairness over the long run, not providing any guarantees at specific intervals, such as yearly or quarterly. In this paper, we introduce a novel neurosymbolic approach to guarantee fairness in every finite run through the use of a symbolic runtime enforcer called a *fairness shield*. The fairness shield monitors and minimally intervenes in the decision-maker’s decisions to ensure that fairness criteria are met either within a bounded horizon or periodically, while also minimizing the costs associated with such interventions as specified by a given cost function. Given a distribution over future decisions and their costs, we present algorithms to compute fairness shields by solving a bounded-horizon optimal control problem. We present synthesis algorithms for four types of fairness shields, each tailored to different operational settings. Our empirical evaluation demonstrates the effectiveness of these shields in ensuring fairness while maintaining cost efficiency across various scenarios.
 <br>
 <br>
 </div>
-</details> -->
+</details>
+
 
 ---
 
 <details>
 <summary> 
 <strong style="color:#52adc8">Analyzing Intentional Behavior in Autonomous Agents under Uncertainty</strong> <br>
-<strong>Cano Córdoba, F.</strong>, Judson, S., Antonopoulos, T., Bjørner, K., Shoemaker, N., Shapiro, S. J., Piskac, R. & Könighofer, B.
+<strong>Filip Cano Córdoba</strong>, Samuel Judson, Timos Antonopoulos, Katrine Bjørner, Nick Shoemaker, Scott J. Shapiro, Ruzica Piskac, Bettina Könighofer.
 <br>
 International Joint Conference of Artificial Intelligence (<strong>IJCAI</strong>) 2023.
 <a href="https://www.ijcai.org/proceedings/2023/0042.pdf"
@@ -137,7 +143,7 @@ Principled accountability for autonomous decision-making in uncertain environmen
 <details>
 <summary> 
 <strong style="color:#52adc8">Safety Shielding under Delayed Observation</strong> <br>
-<strong>Cano Córdoba, F.</strong>, Palmisano, A., Fränzle, M., Bloem, R., & Könighofer, B. 
+<strong>Filip Cano Córdoba</strong>, Alexander Palmisano, Martin Fränzle, Roderick Bloem, Bettina Könighofer. 
 <br>
 International Conference on Automated Planning and Scheduling (<strong>ICAPS</strong>) 2023.
 <a href="https://ojs.aaai.org/index.php/ICAPS/article/view/27181/26954" style="text-decoration: none;">
@@ -181,7 +187,7 @@ Agents operating in physical environments need to be able to handle delays in th
 <details>
 <summary> 
 <strong style="color:#52adc8">Search-Based Testing of Reinforcement Learning</strong> <br>
-Tappler, M., <strong>Cano Córdoba, F.</strong>, Aichernig, B. K., & Könighofer, B. 
+Martin Tappler, <strong>Filip Cano Córdoba</strong>, Bernhard K. Aichernig, Bettina Könighofer. 
 <br>
 International Joint Conference of Artificial Intelligence (<strong>IJCAI</strong>) 2022.
 <a href="https://www.ijcai.org/proceedings/2022/0072.pdf" style="text-decoration: none;">

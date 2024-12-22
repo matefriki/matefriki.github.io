@@ -98,7 +98,7 @@ This report documents the program and the outcomes of Dagstuhl Seminar 23411 "Ac
 <details>
 <summary> 
 <strong style="color:#52adc8">Theory of Intelligence with Forgetting: Mathematical theorems explaining human universal forgetting using “forgetting neural networks”</strong> <br>
-<strong>Cano Córdoba, F.</strong> , Sarma S, Subirana B.
+<strong>Filip Cano Córdoba</strong>, Sanjay Sarma, Brian Subirana.
 <br>
 Center For Brain Minds and Machines (CBMM) Memo no. 71, 2017.
 <a href="https://dspace.mit.edu/bitstream/handle/1721.1/113608/CBMM-Memo-071.pdf">
