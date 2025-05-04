@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Filip Cano Córdoba"
   avatar           : "filip_400x400.png"
-  bio              : "PhD Candidate at TU Graz in Artificial Intelligence"
-  location         : "Graz, Austria"
-  employer         : "Graz University of Technology"
+  bio              : "Postdoc at ISTA"
+  location         : "Klosterneuburg, Austria"
+  employer         : "Institute of Science and Technology Austria"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=kfKzEcYAAAAJ"
   dblp             : "https://dblp.org/pid/320/0091.html"
-  email            :  "filip.cano@iaik.tugraz.at"
+  email            :  
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -110,7 +110,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@filipcano95"
+  twitter          : #"@filipcano95"
   vine             :
   weibo            :
   xing             :

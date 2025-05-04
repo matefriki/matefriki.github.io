@@ -64,7 +64,9 @@ at the Joint AI Safety - Safe RL Workshop @ IJCAI'23.
 
 ---
 
-Filip Cano is a PhD candidate at Graz University of Technology. His research focuses on formal methods to develop trustworthy AI systems, particularly in sequential decision-making contexts, like reinforcement learning. His interests include explainability and accountability of AI systems, as well as verification and enforcement of safety-critical properties. Prior to joining TU Graz, he earned an MSc in Advanced Mathematics and Mathematical Engineering from BarcelonaTech in 2019.
+Filip Cano is a Postdoc at the Institute of Science and Technology Austria (ISTA) PhD candidate at Graz University of Technology. His research focuses on formal methods to develop trustworthy AI systems, particularly in sequential decision-making contexts, like reinforcement learning. His interests include explainability and accountability of AI systems, as well as verification and enforcement of safety-critical properties. Prior to joining ISTA, he earned a PhD in Computer Science at Graz University of Technology.
+
+<!-- Prior to joining TU Graz, he earned an MSc in Advanced Mathematics and Mathematical Engineering from BarcelonaTech in 2019. -->
 
 ---
 
@@ -77,10 +79,13 @@ Filip Cano is a PhD candidate at Graz University of Technology. His research foc
 <strong style="color:#52adc8">Fairness Shields: Safeguarding against Biased Decision Makers</strong> <br>
  <strong>Filip Cano</strong>, Thomas A. Henzinger, Bettina Könighofer, Konstantin Kueffner, Kaushik Mallik.
 <br>
-(To appear in) AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>) 2025.
-<a href="https://arxiv.org/pdf/2412.11994"
+AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>) 2025.
+<a href="https://ojs.aaai.org/index.php/AAAI/article/view/33719/35874"
 style="text-decoration: none;">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+<a href="./../files/aaai25-poster.pdf" style="text-decoration: none;">
+<img src="./../images/poster-icon.svg" width=16em title="Poster"/>
 </a>
 </summary>
 <br>

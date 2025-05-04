@@ -12,17 +12,57 @@ Years: [2025](#2025)・[2024](#2024)・[2023](#2023)・[2022](#2022)・[2019](#2
 
 ---
 
+<details>
+<summary> 
+<strong style="color:#52adc8">Towards Responsible AI: Advances in Safety, Fairness, and Accountability of Autonomous Systems</strong> <br>
+<strong>Filip Cano Córdoba</strong>
+PhD Thesis, 2025.
+<a href="https://graz.elsevierpure.com/files/92669538/PhD_Thesis_Filip_Cano.pdf">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+Ensuring responsible use of artificial intelligence (AI) has become imperative as autonomous systems increasingly influence critical societal domains. However, the concept of trustworthy AI remains broad and multi-faceted. This thesis advances knowledge in the safety, fairness, transparency, and accountability of AI systems.
 
+In safety, we extend classical deterministic shielding techniques to become resilient against delayed observations, enabling practical deployment in real-world conditions. 
+We also implement both deterministic and probabilistic safety shields into simulated autonomous vehicles to prevent collisions with road users, validating the use of these techniques in realistic driving simulators.
+
+We introduce fairness shields, a novel post-processing approach to enforce group fairness in sequential decision-making settings over finite and periodic time horizons. By optimizing intervention costs while strictly ensuring fairness constraints, this method efficiently balances fairness with minimal interference.
+
+For transparency and accountability, we propose a formal framework for assessing intentional behaviour in probabilistic decision-making agents, introducing quantitative metrics of agency and intention quotient. We use these metrics to propose a retrospective analysis of intention, useful for determining responsibility when autonomous systems cause unintended harm.
+
+Finally, we unify these contributions through the reactive decision-making framework, providing a general formalization that consolidates previous approaches. Collectively, the advancements presented contribute practically to the realization of safer, fairer, and more accountable AI systems, laying the foundations for future research in trustworthy AI.
+<br>
+<br>
+<details><summary>BibTex:</summary>
+<pre>
+@phdthesis{cano2025towards,
+  title = "Towards Responsible AI: Advances in Safety, Fairness, and Accountability of Autonomous Systems",
+  author = "{Cano C\'ordoba}, Filip",
+  year = "2025",
+  school = "Graz University of Technology (90000)",
+}
+</pre>
+</details>
+</div>
+</details>
+
+---
 
 <details>
 <summary> 
 <strong style="color:#52adc8">Fairness Shields: Safeguarding against Biased Decision Makers</strong> <br>
  <strong>Filip Cano</strong>, Thomas A. Henzinger, Bettina Könighofer, Konstantin Kueffner, Kaushik Mallik.
 <br>
-(To appear in) AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>) 2025.
-<a href="https://arxiv.org/pdf/2412.11994"
+AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>) 2025.
+<a href="https://ojs.aaai.org/index.php/AAAI/article/view/33719/35874"
 style="text-decoration: none;">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+<a href="./../files/aaai25-poster.pdf" style="text-decoration: none;">
+<img src="./../images/poster-icon.svg" width=16em title="Poster"/>
 </a>
 </summary>
 <br>
