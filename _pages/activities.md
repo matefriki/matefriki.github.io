@@ -129,5 +129,5 @@ In [42] we suggested that any memory stored in the human/animal brain is forgott
 
 * Conference reviewer: AAAI (2026), ECAI (2025), ICLR (2025, 2026), IJCAI (2024), VMCAI (2026).
 * Journal Reviewer: Science of Computer Programming (2024), Journal of Artificial Intelligence Research (2025).
-* Conference subreviewer: AISoLA (2023, 2024), FMCAD (2021 - 2023), FoSSaCS (2025), KR (2024), RV (2022), TACAS (2023, 2025), VMCAI (2024).
+* Conference subreviewer: AISoLA (2023, 2024), CAV (2025), FMCAD (2021 - 2023), FoSSaCS (2025), KR (2024), RV (2022), TACAS (2023, 2025), VMCAI (2024).
 * Artifact evaluation: CAV (2022 - 2025), TACAS (2025), VMCAI (2024).
