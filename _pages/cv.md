@@ -16,15 +16,16 @@ style="text-decoration: none;">
 
 Education
 ======
-* Ph.D. in Computer Science, Graz University of Technology, 2021 - 2025 (expected)
+* Ph.D. in Computer Science, Graz University of Technology, 2021 - 2025
 * M.S. in Advanced Mathematics and Mathematical Engineering, BarcelonaTech, 2018 - 2019
 * B.S. Mathematics, BarcelonaTech, 2013 - 2018
 * B.S. Physics Engineering, BarcelonaTech, 2013 - 2018
 
 Work experience
 ======
+* 2025-  : Postdoctoral Researcher. Institute of Science and Technology Austria, Klosterneuburg.
 * 2021-25: University Project Assistant. Graz University of Technology, Graz.
-* 2020-21: Data Scientist. AI Team at [Basetis](basetis.com), Barcelona.
+* 2020-21: Data Scientist. AI Team at [Basetis](https://basetis.com), Barcelona.
 * 2018-19: Private Academy Tutor. Academia Sol, Barcelona.
 
 Languages

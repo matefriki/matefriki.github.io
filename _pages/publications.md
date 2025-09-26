@@ -14,6 +14,28 @@ Years: [2025](#2025)・[2024](#2024)・[2023](#2023)・[2022](#2022)・[2019](#2
 
 <details>
 <summary> 
+<strong style="color:#52adc8">Algorithmic Fairness: A Runtime Perspective</strong> <br>
+ <strong>Filip Cano</strong>, Thomas A. Henzinger, Konstantin Kueffner.
+<br>
+International Conference on Runtime Verification (<strong>RV</strong>) 2025.
+<a href="https://arxiv.org/pdf/2507.20711"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+Fairness in AI is traditionally studied as a static property evaluated once, over a fixed dataset. However, real-world AI systems operate sequentially, with outcomes and environments evolving over time. This paper proposes a framework for analysing fairness as a runtime property. Using a minimal yet expressive model based on sequences of coin tosses with possibly evolving biases, we study the problems of monitoring and enforcing fairness expressed in either toss outcomes or coin biases. Since there is no one-size-fits-all solution for either problem, we provide a summary of monitoring and enforcement strategies, parametrised by environment dynamics, prediction horizon, and confidence thresholds. For both problems, we present general results under simple or minimal assumptions. We survey existing solutions for the monitoring problem for Markovian and additive dynamics, and existing solutions for the enforcement problem in static settings with known dynamics.
+<br>
+<br>
+</div>
+</details>
+
+---
+
+<details>
+<summary> 
 <strong style="color:#52adc8">Towards Responsible AI: Advances in Safety, Fairness, and Accountability of Autonomous Systems</strong> <br>
 <strong>Filip Cano Córdoba</strong>
 PhD Thesis, 2025.
