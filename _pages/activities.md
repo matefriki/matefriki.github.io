@@ -11,7 +11,7 @@ author_profile: true
 <details>
 <summary> 
 <strong style="color:#52adc8">Safety Assurance for Autonomous Mobility (Dagstuhl Seminar 24071)</strong> <br>
-Jyotirmoy Deshmukh, Bettina Könighofer, Dejan Ničković, and <strong>Filip Cano</strong>
+Jyotirmoy Deshmukh, Bettina Könighofer, Dejan Ničković, and Filip Cano
 <br>
 Dagstuhl Reports, Volume 14, Issue 2, pp. 95-119, Schloss Dagstuhl – Leibniz-Zentrum für Informatik 2024.
 <a href="https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume14/issue02/24071/DagRep.14.2.95/DagRep.14.2.95.pdf"
@@ -50,13 +50,13 @@ This report documents the program and the outcomes of the Dagstuhl Seminar "Safe
 </div>
 </details>
 
-
+---
 
 
 <details>
 <summary> 
 <strong style="color:#52adc8">Accountable Software Systems (Dagstuhl Seminar 23411)</strong> <br>
-Bettina Könighofer, Joshua A. Kroll, Ruzica Piskac, Michael Veale, and <strong>Filip Cano Córdoba</strong>
+Bettina Könighofer, Joshua A. Kroll, Ruzica Piskac, Michael Veale, and Filip Cano Córdoba
 <br>
 Dagstuhl Reports, Volume 13, Issue 10, pp. 24-49, Schloss Dagstuhl – Leibniz-Zentrum für Informatik 2024.
 <a href="https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume13/issue10/23411/DagRep.13.10.24/DagRep.13.10.24.pdf"
@@ -95,10 +95,12 @@ This report documents the program and the outcomes of Dagstuhl Seminar 23411 "Ac
 </div>
 </details>
 
+---
+
 <details>
 <summary> 
-<strong style="color:#52adc8">Theory of Intelligence with Forgetting: Mathematical theorems explaining human universal forgetting using “forgetting neural networks”</strong> <br>
-<strong>Filip Cano Córdoba</strong>, Sanjay Sarma, Brian Subirana.
+<strong style="color:#52adc8">Theory of Intelligence with Forgetting: Mathematical theorems explaining human universal forgetting using forgetting neural networks</strong> <br>
+Filip Cano Córdoba, Sanjay Sarma, Brian Subirana.
 <br>
 Center For Brain Minds and Machines (CBMM) Memo no. 71, 2017.
 <a href="https://dspace.mit.edu/bitstream/handle/1721.1/113608/CBMM-Memo-071.pdf">
@@ -124,6 +126,8 @@ In [42] we suggested that any memory stored in the human/animal brain is forgott
 </details>
 </div>
 </details>
+
+---
 
 ### Peer-Reviewing
 

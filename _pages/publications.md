@@ -5,17 +5,18 @@ permalink: /publications/
 author_profile: true
 ---
 
-Years: [2025](#2025)・[2024](#2024)・[2023](#2023)・[2022](#2022)・[2019](#2019)・[2018](#2018)
+Years: [2025](#2025)・[2024](#2024)・[2023](#2023)・[2022](#2022)
 
+## Peer-reviewed ##
 
-## 2025 ##
+### 2025 ###
 
 ---
 
 <details>
 <summary> 
 <strong style="color:#52adc8">Algorithmic Fairness: A Runtime Perspective</strong> <br>
- <strong>Filip Cano</strong>, Thomas A. Henzinger, Konstantin Kueffner.
+ Filip Cano, Thomas A. Henzinger, Konstantin Kueffner.
 <br>
 International Conference on Runtime Verification (<strong>RV</strong>) 2025.
 <a href="https://arxiv.org/pdf/2507.20711"
@@ -36,47 +37,8 @@ Fairness in AI is traditionally studied as a static property evaluated once, ove
 
 <details>
 <summary> 
-<strong style="color:#52adc8">Towards Responsible AI: Advances in Safety, Fairness, and Accountability of Autonomous Systems</strong> <br>
-<strong>Filip Cano Córdoba</strong>
-PhD Thesis, 2025.
-<a href="https://graz.elsevierpure.com/files/92669538/PhD_Thesis_Filip_Cano.pdf">
-<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
-</a>
-</summary>
-<br>
-<div style="margin-left: 2em">
-<strong> Abstract: </strong>
-Ensuring responsible use of artificial intelligence (AI) has become imperative as autonomous systems increasingly influence critical societal domains. However, the concept of trustworthy AI remains broad and multi-faceted. This thesis advances knowledge in the safety, fairness, transparency, and accountability of AI systems.
-
-In safety, we extend classical deterministic shielding techniques to become resilient against delayed observations, enabling practical deployment in real-world conditions. 
-We also implement both deterministic and probabilistic safety shields into simulated autonomous vehicles to prevent collisions with road users, validating the use of these techniques in realistic driving simulators.
-
-We introduce fairness shields, a novel post-processing approach to enforce group fairness in sequential decision-making settings over finite and periodic time horizons. By optimizing intervention costs while strictly ensuring fairness constraints, this method efficiently balances fairness with minimal interference.
-
-For transparency and accountability, we propose a formal framework for assessing intentional behaviour in probabilistic decision-making agents, introducing quantitative metrics of agency and intention quotient. We use these metrics to propose a retrospective analysis of intention, useful for determining responsibility when autonomous systems cause unintended harm.
-
-Finally, we unify these contributions through the reactive decision-making framework, providing a general formalization that consolidates previous approaches. Collectively, the advancements presented contribute practically to the realization of safer, fairer, and more accountable AI systems, laying the foundations for future research in trustworthy AI.
-<br>
-<br>
-<details><summary>BibTex:</summary>
-<pre>
-@phdthesis{cano2025towards,
-  title = "Towards Responsible AI: Advances in Safety, Fairness, and Accountability of Autonomous Systems",
-  author = "{Cano C\'ordoba}, Filip",
-  year = "2025",
-  school = "Graz University of Technology (90000)",
-}
-</pre>
-</details>
-</div>
-</details>
-
----
-
-<details>
-<summary> 
 <strong style="color:#52adc8">Fairness Shields: Safeguarding against Biased Decision Makers</strong> <br>
- <strong>Filip Cano</strong>, Thomas A. Henzinger, Bettina Könighofer, Konstantin Kueffner, Kaushik Mallik.
+ Filip Cano, Thomas A. Henzinger, Bettina Könighofer, Konstantin Kueffner, Kaushik Mallik.
 <br>
 AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>) 2025.
 <a href="https://ojs.aaai.org/index.php/AAAI/article/view/33719/35874"
@@ -104,7 +66,7 @@ As AI-based decision-makers increasingly influence decisions that affect humans,
 <details>
 <summary> 
 <strong style="color:#52adc8">Machine Unlearning using Forgetting Neural Networks</strong> <br>
- Amartya Hatua, Trung T. Nguyen, <strong>Filip Cano</strong>, Andrew H. Sung
+ Amartya Hatua, Trung T. Nguyen, Filip Cano, Andrew H. Sung
 <br>
 International Conference on Agents and Artificial Intelligence (<strong>ICAART</strong>) 2025.
 <a href="https://arxiv.org/pdf/2410.22374"
@@ -125,7 +87,7 @@ Modern computer systems store vast amounts of personal data, enabling advances i
 
 
 
-## 2024 ##
+### 2024 ###
 
 ---
 
@@ -134,7 +96,7 @@ Modern computer systems store vast amounts of personal data, enabling advances i
 <details>
 <summary> 
 <strong style="color:#52adc8">Abstraction-Based Decision Making for Statistical Properties</strong> <br>
- <strong>Filip Cano</strong>, Thomas A. Henzinger, Bettina Könighofer, Konstantin Kueffner, Kaushik Mallik.
+ Filip Cano, Thomas A. Henzinger, Bettina Könighofer, Konstantin Kueffner, Kaushik Mallik.
 <br>
 International Conference on Formal Structures for Computation and Deduction (<strong>FSCD</strong>) 2024.
 <a href="./../files/fscd24-paper.pdf"
@@ -172,7 +134,7 @@ Sequential decision-making in probabilistic environments is a fundamental proble
 <details>
 <summary> 
 <strong style="color:#52adc8">soid: a Tool for Legal Accountability for Automated Decision Making </strong> <br>
-Samuel Judson, Matthew Elacqua, <strong>Filip Cano</strong>, Timos Antonopoulos, Bettina Könighofer, Scott J. Shapiro, Ruzica Piskac.
+Samuel Judson, Matthew Elacqua, Filip Cano, Timos Antonopoulos, Bettina Könighofer, Scott J. Shapiro, Ruzica Piskac.
 <br>
 International Conference of Computer Aided Verification (<strong>CAV</strong>) 2024.
 <a href="./../files/cav24-paper.pdf"
@@ -210,7 +172,7 @@ We present soid, a tool for interrogating the decision making of autonomous agen
 <details>
 <summary> 
 <strong style="color:#52adc8">'Put the Car on the Stand': SMT-based Oracles for Investigating Decisions</strong> <br>
-Samuel Judson, Matthew Elacqua, <strong>Filip Cano</strong>, Timos Antonopoulos, Bettina Könighofer, Scott J. Shapiro, Ruzica Piskac.
+Samuel Judson, Matthew Elacqua, Filip Cano, Timos Antonopoulos, Bettina Könighofer, Scott J. Shapiro, Ruzica Piskac.
 <br>
 ACM Symposium on Computer Science and Law (<strong>CSLAW</strong>) 2024.
 <a href="./../files/cslaw24-paper.pdf"
@@ -253,14 +215,14 @@ and demonstrate its utility on an illustrative car crash scenario.
 ---
 
 
-## 2023 ##
+### 2023 ###
 
 ---
 
 <details>
 <summary> 
 <strong style="color:#52adc8">Analyzing Intentional Behavior in Autonomous Agents under Uncertainty</strong> <br>
-<strong>Filip Cano Córdoba</strong>, Samuel Judson, Timos Antonopoulos, Katrine Bjørner, Nick Shoemaker, Scott J. Shapiro, Ruzica Piskac, Bettina Könighofer.
+Filip Cano Córdoba, Samuel Judson, Timos Antonopoulos, Katrine Bjørner, Nick Shoemaker, Scott J. Shapiro, Ruzica Piskac, Bettina Könighofer.
 <br>
 International Joint Conference of Artificial Intelligence (<strong>IJCAI</strong>) 2023.
 <a href="https://www.ijcai.org/proceedings/2023/0042.pdf"
@@ -305,7 +267,7 @@ Principled accountability for autonomous decision-making in uncertain environmen
 <details>
 <summary> 
 <strong style="color:#52adc8">Safety Shielding under Delayed Observation</strong> <br>
-<strong>Filip Cano Córdoba</strong>, Alexander Palmisano, Martin Fränzle, Roderick Bloem, Bettina Könighofer. 
+Filip Cano Córdoba, Alexander Palmisano, Martin Fränzle, Roderick Bloem, Bettina Könighofer. 
 <br>
 International Conference on Automated Planning and Scheduling (<strong>ICAPS</strong>) 2023.
 <a href="https://ojs.aaai.org/index.php/ICAPS/article/view/27181/26954" style="text-decoration: none;">
@@ -350,7 +312,7 @@ Agents operating in physical environments need to be able to handle delays in th
 <details>
 <summary> 
 <strong style="color:#52adc8">Formal XAI via Syntax-Guided Synthesis</strong> <br>
-Katrine Bjørner, Samuel Judson, <strong>Filip Cano</strong>, Drew Goldman, Nick Shoemaker, Ruzica Piskac, Bettina Könighofer.
+Katrine Bjørner, Samuel Judson, Filip Cano, Drew Goldman, Nick Shoemaker, Ruzica Piskac, Bettina Könighofer.
 <br>
 Bridging the Gap Between AI and Reality (<strong>AISoLA</strong>) 2023.
 <a href="../files/isola23-paper.pdf"
@@ -401,7 +363,7 @@ In this paper, we propose a novel application of syntax-guided synthesis to find
 <details>
 <summary> 
 <strong style="color:#52adc8">Continuous Engineering for Trustworthy Learning-Enabled Autonomous Systems</strong> <br>
-Saddek Bensalem, Panagiotis Katsaros, Dejan Ničković, Brian Hsuan-Cheng Liao, Ricardo Ruiz Nolasco, Mohamed Abd El Salam Ahmed, Tewodros A. Beyene, <strong>Filip Cano</strong>, Antoine Delacourt, Hasan Esen, Alexandru Forrai, Weicheng He, Xiaowei Huang, Nikolaos Kekatos, Bettina Könighofer, Michael Paulitsch, Doron Peled, Matthieu Ponchant, Lev Sorokin, Son Tong, Changshun Wu 
+Saddek Bensalem, Panagiotis Katsaros, Dejan Ničković, Brian Hsuan-Cheng Liao, Ricardo Ruiz Nolasco, Mohamed Abd El Salam Ahmed, Tewodros A. Beyene, Filip Cano, Antoine Delacourt, Hasan Esen, Alexandru Forrai, Weicheng He, Xiaowei Huang, Nikolaos Kekatos, Bettina Könighofer, Michael Paulitsch, Doron Peled, Matthieu Ponchant, Lev Sorokin, Son Tong, Changshun Wu 
 <br>
 Bridging the Gap Between AI and Reality (<strong>AISoLA</strong>) 2023.
 <a href="https://link.springer.com/content/pdf/10.1007/978-3-031-46002-9_15.pdf"
@@ -455,14 +417,14 @@ Learning-enabled autonomous systems (LEAS) use machine learning (ML) components 
 </details>
 
 
-## 2022 ##
+### 2022 ###
 
 ---
 
 <details>
 <summary> 
 <strong style="color:#52adc8">Search-Based Testing of Reinforcement Learning</strong> <br>
-Martin Tappler, <strong>Filip Cano Córdoba</strong>, Bernhard K. Aichernig, Bettina Könighofer. 
+Martin Tappler, Filip Cano Córdoba, Bernhard K. Aichernig, Bettina Könighofer. 
 <br>
 International Joint Conference of Artificial Intelligence (<strong>IJCAI</strong>) 2022.
 <a href="https://www.ijcai.org/proceedings/2022/0072.pdf" style="text-decoration: none;">
@@ -503,15 +465,58 @@ Evaluation of deep reinforcement learning (RL) is inherently challenging. Especi
 
 ---
 
-## 2019 ##
+## Theses ##
+
+<!-- ## 2019 ## -->
+
 
 ---
 
 <details>
 <summary> 
+<strong style="color:#52adc8">Towards Responsible AI: Advances in Safety, Fairness, and Accountability of Autonomous Systems</strong> <br>
+Filip Cano Córdoba
+<strong>PhD Thesis</strong>, 2025.
+<a href="https://graz.elsevierpure.com/files/92669538/PhD_Thesis_Filip_Cano.pdf">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+Ensuring responsible use of artificial intelligence (AI) has become imperative as autonomous systems increasingly influence critical societal domains. However, the concept of trustworthy AI remains broad and multi-faceted. This thesis advances knowledge in the safety, fairness, transparency, and accountability of AI systems.
+
+In safety, we extend classical deterministic shielding techniques to become resilient against delayed observations, enabling practical deployment in real-world conditions. 
+We also implement both deterministic and probabilistic safety shields into simulated autonomous vehicles to prevent collisions with road users, validating the use of these techniques in realistic driving simulators.
+
+We introduce fairness shields, a novel post-processing approach to enforce group fairness in sequential decision-making settings over finite and periodic time horizons. By optimizing intervention costs while strictly ensuring fairness constraints, this method efficiently balances fairness with minimal interference.
+
+For transparency and accountability, we propose a formal framework for assessing intentional behaviour in probabilistic decision-making agents, introducing quantitative metrics of agency and intention quotient. We use these metrics to propose a retrospective analysis of intention, useful for determining responsibility when autonomous systems cause unintended harm.
+
+Finally, we unify these contributions through the reactive decision-making framework, providing a general formalization that consolidates previous approaches. Collectively, the advancements presented contribute practically to the realization of safer, fairer, and more accountable AI systems, laying the foundations for future research in trustworthy AI.
+<br>
+<br>
+<details><summary>BibTex:</summary>
+<pre>
+@phdthesis{cano2025towards,
+  title = "Towards Responsible AI: Advances in Safety, Fairness, and Accountability of Autonomous Systems",
+  author = "{Cano C\'ordoba}, Filip",
+  year = "2025",
+  school = "Graz University of Technology (90000)",
+}
+</pre>
+</details>
+</div>
+</details>
+
+---
+
+
+<details>
+<summary> 
 <strong style="color:#52adc8">An Introduction to Polytope Theory through Ehrhart's Theorem</strong> <br>
-<strong>Filip Cano Córdoba</strong>
-Master Thesis, 2019.
+Filip Cano Córdoba
+<strong>Master Thesis</strong>, 2019.
 <a href="https://upcommons.upc.edu/handle/2117/171328">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
 </a>
@@ -539,14 +544,14 @@ A classic introduction to polytope theory is presented, serving as the foundatio
 
 ---
 
-## 2018 ##
+<!-- ## 2018 ## -->
 
 ---
 
 <details>
 <summary> 
 <strong style="color:#52adc8">Theoretical study of artificial neural networks</strong> <br>
-<strong>Filip Cano Córdoba</strong> Bachelor Thesis, 2018.
+Filip Cano Córdoba, <strong>Bachelor Thesis</strong>, 2018.
 <a href="https://upcommons.upc.edu/bitstream/handle/2117/121051/memoria.pdf">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
 </a>

@@ -7,7 +7,7 @@ author_profile: true
 
 Years: [2024](#2024)・ [2023](#2023)・[2022](#2022)・[2021](#2021)・[2019](#2019)
 
-## 2024 ##
+### 2024 ###
 
 ---
 
@@ -26,7 +26,7 @@ AGI Leap Summit, Virtual Event (remote).
 </a>
 </p>
 
-## 2023 ##
+### 2023 ###
 
 ---
 
@@ -43,7 +43,7 @@ SafeRL Workshop at IJCAI, Macao.
 </p>
 
 
-## 2022 ##
+### 2022 ###
 
 ---
 
@@ -59,7 +59,7 @@ Continuous Engineering and Deep Learning for Trustworthy Autonomous Systems Summ
 
 ---
 
-## 2021 ##
+### 2021 ###
 
 ---
 
@@ -71,7 +71,7 @@ RL-CONFORM Workshop at IROS, Prague (remote).
 
 ---
 
-## 2019 ##
+### 2019 ###
 
 ---
 

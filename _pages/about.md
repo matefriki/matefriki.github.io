@@ -64,7 +64,9 @@ at the Joint AI Safety - Safe RL Workshop @ IJCAI'23.
 
 ---
 
-Filip Cano is a Postdoc at the Institute of Science and Technology Austria (ISTA). His research focuses on formal methods to develop trustworthy AI systems, particularly in sequential decision-making contexts, like reinforcement learning. His interests include explainability and accountability of AI systems, as well as verification and enforcement of safety-critical properties. Prior to joining ISTA, he earned a PhD in Computer Science at Graz University of Technology.
+Filip Cano is a Postdoctoral researcher at the Institute of Science and Technology Austria (ISTA). 
+His research focuses on formal methods to develop trustworthy AI systems, particularly in sequential decision-making contexts, like reinforcement learning. His interests include explainability and accountability of AI systems, as well as verification and enforcement of safety-critical properties. 
+Prior to joining ISTA, he earned a PhD in Computer Science at Graz University of Technology.
 
 <!-- Prior to joining TU Graz, he earned an MSc in Advanced Mathematics and Mathematical Engineering from BarcelonaTech in 2019. -->
 
