@@ -5,9 +5,55 @@ permalink: /publications/
 author_profile: true
 ---
 
-Years: [2025](#2025)・[2024](#2024)・[2023](#2023)・[2022](#2022)
+Years: [2026](#2026)・[2025](#2025)・[2024](#2024)・[2023](#2023)・[2022](#2022)
 
-## Peer-reviewed ##
+## Conference papers ##
+
+### 2026 ###
+---
+
+
+<details>
+<summary> 
+<strong style="color:#52adc8"> Explaining Decisions One Conversation at a Time: Opportunities and Risks of LLMs as Explainability Assistants</strong> <br>
+ Filip Cano
+<br>
+International Conference on Agents and Artificial Intelligence (<strong>ICAART</strong>) 2026.
+<a href="./../files/icaart26llm.pdf"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+Modern AI systems increasingly rely on opaque, highly complex models whose inner workings remain inaccessible even to experts. This opacity creates challenges for trust, accountability, and compliance with emerging regulatory expectations such as the “right to an explanation.” While traditional explainability methods—feature attributions, counterfactuals, surrogate models—and interpretable model classes provide valuable insights for engineers, they often fall short of delivering the contextual, conversational explanations that real users expect. Large Language Models (LLMs) offer a promising new avenue for explanation due to their ability to engage interactively, adapt to user needs, and translate technical outputs into more accessible reasoning. However, their tendencies toward hallucination, conflict avoidance, and oversimplification introduce serious risks when used as explanatory agents. This paper analyzes these opportunities and limitations, examines verification strategies for ensuring explanation fidelity, and situates LLM-generated explanations within broader concerns about public trust. We conclude by outlining best practices and future research directions for building robust, verifiable, and human-aligned explanation systems.
+<br>
+<br>
+</div>
+</details>
+
+---
+
+<details>
+<summary> 
+<strong style="color:#52adc8">Machine Unlearning using Forgetting Neural Networks</strong> <br>
+ Amartya Hatua, Trung T. Nguyen, Filip Cano, Andrew H. Sung
+<br>
+International Conference on Agents and Artificial Intelligence (<strong>ICAART</strong>) 2026.
+<a href="https://arxiv.org/pdf/2410.22374"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+Modern computer systems store vast amounts of personal data, enabling advances in AI and ML but risking user privacy and trust. For privacy reasons, it is desired sometimes for an ML model to forget part of the data it was trained on. This paper presents a new approach to machine unlearning using forgetting neural networks (FNN). FNNs are neural networks with specific forgetting layers, that take inspiration from the processes involved when a human brain forgets. While FNNs had been proposed as a theoretical construct, they have not been previously used as a machine unlearning method. We describe four different types of forgetting layers and study their properties. In our experimental evaluation, we report our results on the MNIST handwritten digit recognition and fashion datasets. The effectiveness of the unlearned models was tested using Membership Inference Attacks (MIA). Successful experimental results demonstrate the great potential of our proposed method for dealing with the machine unlearning problem.
+<br>
+<br>
+</div>
+</details>
 
 ### 2025 ###
 
@@ -546,7 +592,6 @@ A classic introduction to polytope theory is presented, serving as the foundatio
 
 <!-- ## 2018 ## -->
 
----
 
 <details>
 <summary> 
@@ -577,3 +622,27 @@ The basic structure and definitions of artificial neural networks are exposed, a
 </div>
 </details>
 
+
+## Preprints
+
+---
+
+<details>
+<summary> 
+<strong style="color:#52adc8">Energy Shields for Fairness</strong> <br>
+ Filip Cano, Thomas A. Henzinger, Konstantin Kueffner.
+<br>
+Preprint 2025.
+<a href="https://openreview.net/pdf?id=ZIdCf4aXre"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+Runtime fairness is not a one-time constraint but a dynamic property evaluated over a sequence of decisions. To ensure fairness at runtime it is necessary to account for past decisions, information neglected by conventional, static classifiers. Traditional fairness shields enforce runtime fairness abruptly, by intervening deterministically whenever a sequence of decisions violates the target for a running fairness measure. This motivates our main conceptual contribution: energy shields. An energy shield is a novel, lightweight, adaptive controller that monitors a sequence of decisions and intervenes probabilistically to ensure runtime fairness smoothly, by utilizing physics-inspired energy functions to nudge the sequence towards fairness: the more unfair the decisions, the stronger the nudging force becomes. This makes energy shields the first fairness shields to provide both short-term safety and long-term liveness guarantees. Safety ensures that the running fairness measure stays within a running target interval with high probability, and liveness ensures that the limit of the fairness measure lies within the limit target interval. Intuitively, the short-term specifies the tolerated fairness values and the long-term specifies the desired fairness values. We also provide a synthesis procedure for constructing the least intrusive energy shield for a given target specification, and demonstrate its efficiency experimentally. As a sanity check for the theoretical contributions, we evaluate our energy shields against existing fairness shields through the lens of short- and long-term fairness.
+<br>
+<br>
+</div>
+</details>
