@@ -13,6 +13,8 @@ Years: [2026](#2026)・[2025](#2025)・[2024](#2024)・[2023](#2023)・[2022](#2
 ---
 
 
+ICAART26_machineUnlearning.pdf
+
 <details>
 <summary> 
 <strong style="color:#52adc8"> Explaining Decisions One Conversation at a Time: Opportunities and Risks of LLMs as Explainability Assistants</strong> <br>
@@ -44,6 +46,9 @@ International Conference on Agents and Artificial Intelligence (<strong>ICAART</
 <a href="https://arxiv.org/pdf/2410.22374"
 style="text-decoration: none;">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+<a href="./../files/ICAART26_machineUnlearning.pdf" style="text-decoration: none;">
+<img src="./../images/slides-icon.svg" width=16em title="Slides"/>
 </a>
 </summary>
 <br>
