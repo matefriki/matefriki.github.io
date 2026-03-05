@@ -13,7 +13,26 @@ Years: [2026](#2026)・[2025](#2025)・[2024](#2024)・[2023](#2023)・[2022](#2
 ---
 
 
-ICAART26_machineUnlearning.pdf
+
+<details>
+<summary> 
+<strong style="color:#52adc8">Energy Shields for Fairness</strong> <br>
+ Filip Cano, Thomas A. Henzinger, Konstantin Kueffner.
+<br>
+ACM Conference on Fairness, Accountability, and Transparency (<strong>FAccT</strong>) (to appear).
+<a href="https://openreview.net/pdf?id=ZIdCf4aXre"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+Runtime fairness is not a one-time constraint but a dynamic property evaluated over a sequence of decisions. To ensure fairness at runtime it is necessary to account for past decisions, information neglected by conventional, static classifiers. Traditional fairness shields enforce runtime fairness abruptly, by intervening deterministically whenever a sequence of decisions violates the target for a running fairness measure. This motivates our main conceptual contribution: energy shields. An energy shield is a novel, lightweight, adaptive controller that monitors a sequence of decisions and intervenes probabilistically to ensure runtime fairness smoothly, by utilizing physics-inspired energy functions to nudge the sequence towards fairness: the more unfair the decisions, the stronger the nudging force becomes. This makes energy shields the first fairness shields to provide both short-term safety and long-term liveness guarantees. Safety ensures that the running fairness measure stays within a running target interval with high probability, and liveness ensures that the limit of the fairness measure lies within the limit target interval. Intuitively, the short-term specifies the tolerated fairness values and the long-term specifies the desired fairness values. We also provide a synthesis procedure for constructing the least intrusive energy shield for a given target specification, and demonstrate its efficiency experimentally. As a sanity check for the theoretical contributions, we evaluate our energy shields against existing fairness shields through the lens of short- and long-term fairness.
+<br>
+<br>
+</div>
+</details>
 
 <details>
 <summary> 
@@ -635,22 +654,4 @@ The basic structure and definitions of artificial neural networks are exposed, a
 
 ---
 
-<details>
-<summary> 
-<strong style="color:#52adc8">Energy Shields for Fairness</strong> <br>
- Filip Cano, Thomas A. Henzinger, Konstantin Kueffner.
-<br>
-Preprint 2025.
-<a href="https://openreview.net/pdf?id=ZIdCf4aXre"
-style="text-decoration: none;">
-<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
-</a>
-</summary>
-<br>
-<div style="margin-left: 2em">
-<strong> Abstract: </strong>
-Runtime fairness is not a one-time constraint but a dynamic property evaluated over a sequence of decisions. To ensure fairness at runtime it is necessary to account for past decisions, information neglected by conventional, static classifiers. Traditional fairness shields enforce runtime fairness abruptly, by intervening deterministically whenever a sequence of decisions violates the target for a running fairness measure. This motivates our main conceptual contribution: energy shields. An energy shield is a novel, lightweight, adaptive controller that monitors a sequence of decisions and intervenes probabilistically to ensure runtime fairness smoothly, by utilizing physics-inspired energy functions to nudge the sequence towards fairness: the more unfair the decisions, the stronger the nudging force becomes. This makes energy shields the first fairness shields to provide both short-term safety and long-term liveness guarantees. Safety ensures that the running fairness measure stays within a running target interval with high probability, and liveness ensures that the limit of the fairness measure lies within the limit target interval. Intuitively, the short-term specifies the tolerated fairness values and the long-term specifies the desired fairness values. We also provide a synthesis procedure for constructing the least intrusive energy shield for a given target specification, and demonstrate its efficiency experimentally. As a sanity check for the theoretical contributions, we evaluate our energy shields against existing fairness shields through the lens of short- and long-term fairness.
-<br>
-<br>
-</div>
-</details>
+
