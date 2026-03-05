@@ -50,6 +50,9 @@ style="text-decoration: none;">
 <a href="./../files/ICAART26_machineUnlearning.pdf" style="text-decoration: none;">
 <img src="./../images/slides-icon.svg" width=16em title="Slides"/>
 </a>
+<a href="./../files/ICAART26_machineUnlearning.pptx" style="text-decoration: none;">
+<img src="./../images/slides-icon.svg" width=16em title="Slides"/>
+</a>
 </summary>
 <br>
 <div style="margin-left: 2em">
