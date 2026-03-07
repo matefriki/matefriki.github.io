@@ -36,6 +36,7 @@ Runtime fairness is not a one-time constraint but a dynamic property evaluated o
 
 ---
 
+
 <details>
 <summary> 
 <strong style="color:#52adc8"> Explaining Decisions One Conversation at a Time: Opportunities and Risks of LLMs as Explainability Assistants</strong> <br>
@@ -45,6 +46,12 @@ International Conference on Agents and Artificial Intelligence (<strong>ICAART</
 <a href="./../files/icaart26llm.pdf"
 style="text-decoration: none;">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+<a href="./../files/ICAART26_LLMs.pdf" style="text-decoration: none;">
+<img src="./../images/slides-icon.svg" width=16em title="Slides"/>
+</a>
+<a href="./../files/ICAART26_LLMs.pptx" style="text-decoration: none;">
+<img src="./../images/slides-icon.svg" width=16em title="Slides"/>
 </a>
 </summary>
 <br>
