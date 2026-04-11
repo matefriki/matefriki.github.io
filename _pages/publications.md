@@ -559,7 +559,8 @@ Evaluation of deep reinforcement learning (RL) is inherently challenging. Especi
 <strong style="color:#52adc8">Towards Responsible AI: Advances in Safety, Fairness, and Accountability of Autonomous Systems</strong> <br>
 Filip Cano Córdoba
 <strong>PhD Thesis</strong>, 2025.
-<a href="https://graz.elsevierpure.com/files/92669538/PhD_Thesis_Filip_Cano.pdf">
+<!-- <a href="https://graz.elsevierpure.com/files/92669538/PhD_Thesis_Filip_Cano.pdf"> -->
+<a href="./../files/PhD_Thesis_Filip_Cano.pdf">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
 </a>
 </summary>
