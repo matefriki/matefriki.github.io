@@ -12,15 +12,35 @@ Years: [2026](#2026)・[2025](#2025)・[2024](#2024)・[2023](#2023)・[2022](#2
 ### 2026 ###
 ---
 
+<details>
+<summary> 
+<strong style="color:#52adc8">Monitoring Discounted Sum Properties</strong> <br>
+ Filip Cano, Thomas A. Henzinger, Konstantin Kueffner. N. Ege Saraç.
+<br>
+International Conference on Concurrency Theory (<strong>CONCUR</strong>) 2026.
+<a href="https://arxiv.org/abs/2606.25979"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+Runtime monitoring of quantitative signals faces a fundamental trade-off between volatility and over-aggregation: instantaneous observations are noisy, while long-run averages obscure local structure. Localisation measures such as discounted averages offer a principled middle ground, yet remain poorly understood in runtime verification. This paper studies discounted sums from a monitoring perspective, in both deterministic and stochastic settings. We formalize the discounted monitoring problem and show that exact, sound monitoring of discounted sums cannot be achieved with finite memory. To overcome this impossibility, we introduce ε-approximately sound monitoring, deriving explicit bounds on memory and observation requirements. We then extend the framework to stochastic processes via expected discounted sums, defining pointwise and uniform (ε,δ)-soundness notions, establishing statistical optimality, and proving impossibility beyond a precision threshold. We also formalize the resource complexity of deterministic discounted monitoring via affine register machines and prove a tight worst-case lower bound. Finally, we present a specification language for arithmetic expressions over multiple discounted sums with synchronous and asynchronous semantics, and evaluate our approach on practical scenarios including algorithmic fairness.
+<br>
+<br>
+</div>
+</details>
 
+---
 
 <details>
 <summary> 
 <strong style="color:#52adc8">Energy Shields for Fairness</strong> <br>
  Filip Cano, Thomas A. Henzinger, Konstantin Kueffner.
 <br>
-ACM Conference on Fairness, Accountability, and Transparency (<strong>FAccT</strong>) (to appear).
-<a href="https://openreview.net/pdf?id=ZIdCf4aXre"
+ACM Conference on Fairness, Accountability, and Transparency (<strong>FAccT</strong>) 2026.
+<a href="https://dl.acm.org/doi/10.1145/3805689.3806807"
 style="text-decoration: none;">
 <img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
 </a>
@@ -664,4 +684,23 @@ The basic structure and definitions of artificial neural networks are exposed, a
 
 ---
 
+<details>
+<summary> 
+<strong style="color:#52adc8">Multi-Environment POMDPs with Finite-Horizon Objectives
+</strong> <br>
+ Léonard Brice, Filip Cano, Krishnendu Chatterjee, Thomas A. Henzinger, Stefanie Muroya.
+<br>
+<a href="https://arxiv.org/abs/2605.07537"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+Partially Observable Markov Decision Processes (POMDPs) are systems in which one agent interacts with a stochastic environment, and receives only partial information about the current state. In a multi-environment POMDP (MEPOMDP), the initial state is unknown, and assumed to be adversarially chosen. In this work we focus on computing the optimal value and policy in MEPOMDPs with finite-horizon objectives. That problem is known to be PSPACE-complete in POMDPs. Our main results are as follows: (1) we establish that it is also PSPACE-complete in the more general setting of MEPOMDPs; (2) we present a practical algorithm and evaluate it on classical benchmarks, significantly outperforming the only previously known algorithm.
+<br>
+<br>
+</div>
+</details>
 

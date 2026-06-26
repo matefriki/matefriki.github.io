@@ -64,9 +64,13 @@ at the Joint AI Safety - Safe RL Workshop @ IJCAI'23.
 
 ---
 
-Filip Cano is a Postdoctoral researcher at the Institute of Science and Technology Austria (ISTA). 
+<!-- Filip Cano is a Postdoctoral researcher at the Institute of Science and Technology Austria (ISTA). 
 His research focuses on formal methods to develop trustworthy AI systems, particularly in sequential decision-making contexts, like reinforcement learning. His interests include explainability and accountability of AI systems, as well as verification and enforcement of safety-critical properties. 
-Prior to joining ISTA, he earned a PhD in Computer Science at Graz University of Technology.
+Prior to joining ISTA, he earned a PhD in Computer Science at Graz University of Technology. -->
+
+Filip Cano is a Postdoctoral Researcher at the Institute of Science and Technology Austria (ISTA), working at the intersection of formal methods and responsible AI. 
+His research develops runtime monitoring and enforcement techniques for AI-supported sequential decision-making systems. His broader interests include safe reinforcement learning, runtime assurance, explainability, and accountability for autonomous agents. 
+Prior to joining ISTA, he earned a PhD in Computer Science at Graz University of Technology, with a thesis on safety, fairness, and accountability of autonomous systems, and an MSc in Advanced Mathematics and Mathematical Engineering from BarcelonaTech in 2019.
 
 <!-- Prior to joining TU Graz, he earned an MSc in Advanced Mathematics and Mathematical Engineering from BarcelonaTech in 2019. -->
 
@@ -75,6 +79,28 @@ Prior to joining ISTA, he earned a PhD in Computer Science at Graz University of
 ## Selected publications
 
 
+
+<details>
+<summary> 
+<strong style="color:#52adc8">Energy Shields for Fairness</strong> <br>
+ Filip Cano, Thomas A. Henzinger, Konstantin Kueffner.
+<br>
+ACM Conference on Fairness, Accountability, and Transparency (<strong>FAccT</strong>) 2026.
+<a href="https://dl.acm.org/doi/10.1145/3805689.3806807"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+Runtime fairness is not a one-time constraint but a dynamic property evaluated over a sequence of decisions. To ensure fairness at runtime it is necessary to account for past decisions, information neglected by conventional, static classifiers. Traditional fairness shields enforce runtime fairness abruptly, by intervening deterministically whenever a sequence of decisions violates the target for a running fairness measure. This motivates our main conceptual contribution: energy shields. An energy shield is a novel, lightweight, adaptive controller that monitors a sequence of decisions and intervenes probabilistically to ensure runtime fairness smoothly, by utilizing physics-inspired energy functions to nudge the sequence towards fairness: the more unfair the decisions, the stronger the nudging force becomes. This makes energy shields the first fairness shields to provide both short-term safety and long-term liveness guarantees. Safety ensures that the running fairness measure stays within a running target interval with high probability, and liveness ensures that the limit of the fairness measure lies within the limit target interval. Intuitively, the short-term specifies the tolerated fairness values and the long-term specifies the desired fairness values. We also provide a synthesis procedure for constructing the least intrusive energy shield for a given target specification, and demonstrate its efficiency experimentally. As a sanity check for the theoretical contributions, we evaluate our energy shields against existing fairness shields through the lens of short- and long-term fairness.
+<br>
+<br>
+</div>
+</details>
+
+---
 
 <details>
 <summary> 
@@ -189,46 +215,4 @@ Agents operating in physical environments need to be able to handle delays in th
 </div>
 </details>
 
----
 
-<details>
-<summary> 
-<strong style="color:#52adc8">Search-Based Testing of Reinforcement Learning</strong> <br>
-Martin Tappler, <strong>Filip Cano Córdoba</strong>, Bernhard K. Aichernig, Bettina Könighofer. 
-<br>
-International Joint Conference of Artificial Intelligence (<strong>IJCAI</strong>) 2022.
-<a href="https://www.ijcai.org/proceedings/2022/0072.pdf" style="text-decoration: none;">
-<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
-</a>
-<a href="https://slideslive.com/38985048/searchbased-testing-of-reinforcement-learning" style="text-decoration: none;">
-<img src="./../images/video-icon.svg" width=16em title="Talk recording"/>
-</a>
-</summary>
-<br>
-<div style="margin-left: 2em">
-<strong> Abstract: </strong>
-Evaluation of deep reinforcement learning (RL) is inherently challenging. Especially the opaqueness of learned policies and the stochastic nature of both agents and environments make testing the behavior of deep RL agents difficult. We present a search-based testing framework that enables a wide range of novel analysis capabilities for evaluating the safety and performance of deep RL agents. For safety testing, our framework utilizes a search algorithm that searches for a reference trace that solves the RL task. The backtracking states of the search, called boundary states, pose safety-critical situations. We create safety test-suites that evaluate how well the RL agent escapes safety-critical situations near these boundary states. For robust performance testing, we create a diverse set of traces via fuzz testing. These fuzz traces are used to bring the agent into a wide variety of potentially unknown states from which the average performance of the agent is compared to the average performance of the fuzz traces. We apply our search-based testing approach on RL for Nintendo's Super Mario Bros.
-
-<br>
-<br>
-<details><summary>BibTex:</summary>
-<pre>
-@inproceedings{ijcai2022p0072,
-  title     = {Search-Based Testing of Reinforcement Learning},
-  author    = {Tappler, Martin and Cano Córdoba, Filip and Aichernig, Bernhard K. and Könighofer, Bettina},
-  booktitle = {Proceedings of the Thirty-First International Joint Conference on
-               Artificial Intelligence, {IJCAI-22}},
-  publisher = {International Joint Conferences on Artificial Intelligence Organization},
-  editor    = {Lud De Raedt},
-  pages     = {503--510},
-  year      = {2022},
-  month     = {7},
-  note      = {Main Track},
-  doi       = {10.24963/ijcai.2022/72},
-  url       = {https://doi.org/10.24963/ijcai.2022/72},
-}
-
-</pre>
-</details>
-</div>
-</details>
