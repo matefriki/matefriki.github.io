@@ -5,12 +5,48 @@ permalink: /publications/
 author_profile: true
 ---
 
+
+## Conference and Journal Papers ##
+
 Years: [2026](#2026)・[2025](#2025)・[2024](#2024)・[2023](#2023)・[2022](#2022)
 
-## Conference papers ##
 
 ### 2026 ###
 ---
+
+<details>
+<summary> 
+<strong style="color:#52adc8">Shielded reinforcement learning for industrial applications: A systematic literature survey</strong> <br>
+ Haritz Odriozola-Olalde, Filip Cano, Bettina Könighofer, Nestor Arana-Arexolaleiba, Maider Zamalloa, Jon Perez-Cerrolaza.
+<br>
+Intelligent Systems with Applications (<strong>ISWA</strong>).
+<a href="https://doi.org/10.1016/j.iswa.2026.200729"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+The safety of Reinforcement Learning (RL)-based controllers has become a prominent research area in recent years, with various approaches being proposed to address this critical issue. Runtime Safety Assurance (RSA) methods for RL, such as Shielded RL, provide formal safety guarantees by preventing agents from taking unsafe actions and suggesting safe alternatives when necessary. However, previous surveys and reviews on RSA for RL have not thoroughly analysed the challenges and applications within the industrial sector. This study builds on existing state-of-the-art research on Shielded RL methods, emphasising its contributions to industrial applications and offering a domain-specific categorisation. This categorisation highlights the primary industrial domains utilising Shielded RL, detailing the optimised functions achieved by RL and the safety functions ensured by the shield. Additionally, the study presents a categorisation based on environmental features, enabling readers to assess the complexity of the problems addressed by the techniques studied. The shield’s attributes are analysed for each work, identifying key trends in their application, including their adaptability to new scenarios. Finally, a basic categorisation model for Shielded RL approaches, grounded in industrial safety standards, is introduced. This model serves as a baseline for future studies aiming to evaluate the maturity level of the works reviewed.
+<br>
+<br>
+<details><summary>BibTex:</summary>
+<pre>
+@article{ODRIOZOLAOLALDE2026200729,
+title = {Shielded reinforcement learning for industrial applications: A systematic literature survey},
+journal = {Intelligent Systems with Applications},
+pages = {200729},
+year = {2026},
+issn = {2667-3053},
+doi = {https://doi.org/10.1016/j.iswa.2026.200729},
+author = {Haritz Odriozola-Olalde and Filip Cano and Bettina Könighofer and Nestor Arana-Arexolaleiba and Maider Zamalloa and Jon Perez-Cerrolaza}
+}
+</pre>
+</details>
+</div>
+</details>
+
 
 <details>
 <summary> 
