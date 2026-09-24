@@ -51,6 +51,29 @@ author = {Haritz Odriozola-Olalde and Filip Cano and Bettina Könighofer and Nes
 
 <details>
 <summary> 
+<strong style="color:#52adc8">Multi-Environment POMDPs with Finite-Horizon Objectives
+</strong> <br>
+ Léonard Brice, Filip Cano, Krishnendu Chatterjee, Thomas A. Henzinger, Stefanie Muroya.
+<br>
+Neural Information Processing Systems (<strong>NeurIPS</strong>) 2026 (accepted/to appear).
+<a href="https://arxiv.org/abs/2605.07537"
+style="text-decoration: none;">
+<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
+</a>
+</summary>
+<br>
+<div style="margin-left: 2em">
+<strong> Abstract: </strong>
+Partially Observable Markov Decision Processes (POMDPs) are systems in which one agent interacts with a stochastic environment, and receives only partial information about the current state. In a multi-environment POMDP (MEPOMDP), the initial state is unknown, and assumed to be adversarially chosen. In this work we focus on computing the optimal value and policy in MEPOMDPs with finite-horizon objectives. That problem is known to be PSPACE-complete in POMDPs. Our main results are as follows: (1) we establish that it is also PSPACE-complete in the more general setting of MEPOMDPs; (2) we present a practical algorithm and evaluate it on classical benchmarks, significantly outperforming the only previously known algorithm.
+<br>
+<br>
+</div>
+</details>
+
+---
+
+<details>
+<summary> 
 <strong style="color:#52adc8">Shielding for Higher-Order Safety</strong> <br>
  Filip Cano, Thomas A. Henzinger, Konstantin Kueffner.
 <br>
@@ -750,27 +773,9 @@ The basic structure and definitions of artificial neural networks are exposed, a
 </details>
 
 
-## Preprints
+<!-- ## Preprints
 
----
+--- -->
 
-<details>
-<summary> 
-<strong style="color:#52adc8">Multi-Environment POMDPs with Finite-Horizon Objectives
-</strong> <br>
- Léonard Brice, Filip Cano, Krishnendu Chatterjee, Thomas A. Henzinger, Stefanie Muroya.
-<br>
-<a href="https://arxiv.org/abs/2605.07537"
-style="text-decoration: none;">
-<img src="./../images/pdf-svg.svg" width=16em title="pdf"/>
-</a>
-</summary>
-<br>
-<div style="margin-left: 2em">
-<strong> Abstract: </strong>
-Partially Observable Markov Decision Processes (POMDPs) are systems in which one agent interacts with a stochastic environment, and receives only partial information about the current state. In a multi-environment POMDP (MEPOMDP), the initial state is unknown, and assumed to be adversarially chosen. In this work we focus on computing the optimal value and policy in MEPOMDPs with finite-horizon objectives. That problem is known to be PSPACE-complete in POMDPs. Our main results are as follows: (1) we establish that it is also PSPACE-complete in the more general setting of MEPOMDPs; (2) we present a practical algorithm and evaluate it on classical benchmarks, significantly outperforming the only previously known algorithm.
-<br>
-<br>
-</div>
-</details>
+
 
